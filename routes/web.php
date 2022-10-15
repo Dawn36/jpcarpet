@@ -23,14 +23,13 @@ use App\Http\Controllers\DashboardController;
 Route::get('/', function () {
     return view('website/home');
 });
+
 Route::resource('contact_us', ContactUsController::class);
+Route::Get('blogs', [WebsiteController::class, 'index'])->name('blogs');
+Route::Get('blogs-detail/{id}', [WebsiteController::class, 'blogDetails'])->name('blogs-detail');
 
 Route::middleware(['auth'])->group(function () {
 Route::Get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
-
-
-Route::Get('blogs', [WebsiteController::class, 'index'])->name('blogs');
-Route::Get('blogs-detail/{id}', [WebsiteController::class, 'blogDetails'])->name('blogs-detail');
 
 Route::resource('categories', CategoriesController::class);
 Route::resource('user', UserController::class);
