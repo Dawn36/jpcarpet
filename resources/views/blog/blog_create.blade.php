@@ -79,7 +79,7 @@
                             </div>
                             <div class="mb-10 fv-row">
                                 <label class="required form-label">Youtube/ SoundCloud iFrame Link:</label>
-                                <textarea  name="i_frame_link" class="form-control" cols="30" rows="3" placeholder="Youtube/ SoundCloud iFrame Link" required></textarea>
+                                <textarea  name="i_frame_link" class="form-control" cols="30" rows="3" placeholder="Youtube/ SoundCloud iFrame Link" ></textarea>
                                 <div class="text-muted fs-7">If you have any Youtube/ SoundCloud iFrame Link kindly put it here.</div>
                             </div>
                             <div>

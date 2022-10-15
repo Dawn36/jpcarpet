@@ -49,7 +49,6 @@ class BlogController extends Controller
             'file' => ['required'],
             'categories_id' => ['required'],
             'blog_name' => ['required'],
-            'i_frame_link' => ['required'],
             'description' => ['required'],
             'meta_title' => ['required'],
             'meta_description' => ['required'],
@@ -149,7 +148,6 @@ class BlogController extends Controller
         $request->validate([
             'categories_id' => ['required'],
             'blog_name' => ['required'],
-            'i_frame_link' => ['required'],
             'description' => ['required'],
             'meta_title' => ['required'],
             'meta_description' => ['required'],
