@@ -88,6 +88,7 @@
                                                     </span>
                                                     <!--end::Svg Icon-->
                                                 </a>
+                                                @if($users[$i]->user_type != '1')
                                                 <form  style="display: inline-block" method="POST" action="{{ route('user.destroy', $users[$i]->id) }}">
                                                     @method('DELETE')
                                                     @csrf
@@ -103,6 +104,7 @@
                                                         <!--end::Svg Icon-->
                                                     </button>
                                                 </form>
+                                                @endif
                                             </td>
                                             </tr>
                                             @endfor
