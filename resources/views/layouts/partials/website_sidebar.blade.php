@@ -66,7 +66,12 @@
                     <li> <a title="blog" href="{{route('blogs')}}">Blog</a> </li>
                     
                     <li> <a title="contact-us" href="{{route('contact')}}">Contact us</a> </li>
+                    @if(!Auth::check())
                     <li> <a title="Sign In" href="{{route('login')}}">Sign In</a> </li>
+                    @endif
+                    @if(Auth::check())
+                    <li> <a title="Dashboard" href="{{route('dashboard')}}">Dashboard</a> </li>
+                    @endif
                 </ul>
             </div>
             <!--navbar-collapse -->
