@@ -62,6 +62,7 @@
                                             <th>First Name</th>
                                             <th>Last Name</th>
                                             <th>Email</th>
+                                            <th>Role</th>
                                             <th>Phone Number</th>
                                             <th># of Blogs</th>
                                             <th>Creation Date</th>
@@ -74,6 +75,17 @@
                                             <td><a href="{{ route('user.show', $users[$i]->id) }}" class="fw-bolder text-hover-primary">{{ucwords($users[$i]->first_name)}} </a></td>
                                             <td><a href="{{ route('user.show', $users[$i]->id) }}" class="fw-bolder text-hover-primary">{{ucwords($users[$i]->last_name)}} </a></td>
                                             <td>{{$users[$i]->email}}</td>
+                                            @if($users[$i]->user_type == '1')
+                                            <td>
+                                                <div class="badge badge-light-primary text-primary">Admin</div>
+                                            </td>
+                                            @endif
+                                            @if($users[$i]->user_type == '2')
+                                            <td>
+                                                <div class="badge badge-light-success text-success">User</div>
+                                            </td>
+                                            @endif
+
                                             <td>{{ucwords($users[$i]->contact_no)}}</td>
                                             <td>{{$users[$i]->blog_count}}</td>
                                             <td>{{Date('Y-m-d',strtotime($users[$i]->created_at))}}</td>
