@@ -42,6 +42,16 @@
                 <div class="text-muted fs-7">Set the Blog status.</div>
             </div>
         </div>
+        <div class="card card-flush py-4">
+            <div class="card-header">
+                <div class="card-title">
+                    <h2>Alt Tag</h2>
+                </div>
+            </div>
+            <div class="card-body pt-0">
+                <input type="text" name="alt_tag" class="form-control mb-2" placeholder="Alt Tag" value="" />
+            </div>
+        </div>
     </div>
     <div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
         <ul class="nav nav-custom nav-tabs nav-line-tabs nav-line-tabs-2x border-0 fs-4 fw-bold mb-n2">

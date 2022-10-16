@@ -111,7 +111,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
           <div class="col-md-12 blog-post-hr">
 			  @for($i=0; $i < count($blog); $i++)
 			  <div class="blog-post mb-30">
-              <div class="post-media"> <img src="{{ asset($blog[$i]->blog_thumbnail)}}" alt="terrazzo-floor-cleaning"><div class="event-calender blog-date">{{DATE("j M",strtotime($blog[$i]->created_at))}}</div> </div>
+              <div class="post-media"> <img src="{{ asset($blog[$i]->blog_thumbnail)}}" alt="{{$blog[$i]->alt_tag}}"><div class="event-calender blog-date">{{DATE("j M",strtotime($blog[$i]->created_at))}}</div> </div>
 					<div class="post-meta"> <span>by </span><a href="{{route('about')}}">{{ucwords($blog[$i]->first_name)}} {{ucwords($blog[$i]->last_name)}}</a>              </div>
               <div class="post-header">
                 <h2><a href="{{route('blogs-detail',$blog[$i]->id)}}">{{ucwords($blog[$i]->blog_name)}}</a></h2>

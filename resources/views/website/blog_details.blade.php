@@ -121,7 +121,7 @@ object-fit: cover;
                             <h2>{{ucwords($blogDetails[0]->blog_name)}}</h2>
                         </div>
                         <div class="post-media">
-                            <img src="{{ asset($blogDetails[0]->blog_thumbnail)}}" alt="terrazzo floor cleaning">
+                            <img src="{{ asset($blogDetails[0]->blog_thumbnail)}}" alt="{{$blogDetails[0]->alt_tag}}">
                             <span class="event-calender blog-date">{{DATE("j M",strtotime($blogDetails[0]->created_at))}}</span>
                         </div>
                         <!-- iFrame for Youtube or SoundCloud -->

@@ -295,6 +295,18 @@ var KTCardsWidget1 = {
                             style: { fontSize: "12px" },
                             x: {
                                 formatter: function(e) {
+                                    if(e == 1) e='Jan';
+                                    if(e == 2) e='Feb';
+                                    if(e == 3) e='Mar';
+                                    if(e == 4) e='Apr';
+                                    if(e == 5) e='May';
+                                    if(e == 6) e='Jun';
+                                    if(e == 7) e='Jul';
+                                    if(e == 8) e='Aug';
+                                    if(e == 9) e='Sep';
+                                    if(e == 10) e='Oct';
+                                    if(e == 11) e='Nov';
+                                    if(e == 12) e='Dec';
                                     return "Month: " + e;
                                 },
                             },

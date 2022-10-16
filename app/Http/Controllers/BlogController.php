@@ -85,6 +85,7 @@ class BlogController extends Controller
         $user = Blog::create([
             'user_id' => $userId,
             'status' =>$status,
+            'alt_tag' =>$request->alt_tag,
             'categories_id' => $request->categories_id,
             'blog_thumbnail' => $path,
             'blog_name' => $request->blog_name,
@@ -170,6 +171,7 @@ class BlogController extends Controller
         
         $blog['categories_id'] = $request->categories_id;
         $blog['status'] = $status;
+        $blog['alt_tag'] = $request->alt_tag;
         $blog['blog_name'] = $request->blog_name;
         $blog['i_frame_link'] = $request->i_frame_link;
         $blog['description'] = $request->description;
