@@ -64,7 +64,7 @@
         </ul>
         <div class="tab-content">
             <!-- General -->
-            <div class="tab-pane fade show active" id="kt_add_blog_general" role="tab-panel">
+            <div class="tab-pane fade show active" id="kt_add_blog_general" role="tab-panel" style="width: 757px;">
                 <div class="d-flex flex-column gap-7 gap-lg-10">
                     <div class="card card-flush py-4">
                         <div class="card-header">
@@ -142,12 +142,25 @@
 
 <script>
      var toolbarOptions = [
-                    [{
-                        header: [1, 2, false]
-                    }],
-                ['bold', 'italic', 'underline'],
+                    
+                ['bold', 'italic', 'underline', 'strike'],
                 ['image', 'code-block'],
-                [ 'link', 'image' ],          // add's image support
+                [ 'link', 'image' ],  
+                ['blockquote', 'code-block'],
+
+                [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+                [{ 'script': 'sub'}, { 'script': 'super' }],      // superscript/subscript
+                [{ 'indent': '-1'}, { 'indent': '+1' }],          // outdent/indent
+                [{ 'direction': 'rtl' }],                         // text direction
+
+                [{ 'size': ['small', false, 'large', 'huge'] }],  // custom dropdown
+                [{ 'header': [1, 2, 3, 4, 5, 6, false] }],
+
+                [{ 'color': [] }, { 'background': [] }],          // dropdown with defaults from theme
+                [{ 'font': [] }],
+                [{ 'align': [] }],
+
+                ['clean']                                         // remove formatting button        // add's image support
 
             ];
 
