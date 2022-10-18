@@ -135,20 +135,9 @@
                                     <a href="{{$user->insta}}" target="_blank" class="mx-4">
                                         <img src="{{ asset('theme/assets/media/svg/brand-logos/instagram-2-1.svg')}}" class="h-20px my-2" alt="" />
                                     </a>
-                                    <a href="#" class="mx-4">
-                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/github.svg')}}" class="h-20px my-2" alt="" />
-                                    </a>
-                                    <a href="#" class="mx-4">
-                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/behance.svg')}}" class="h-20px my-2" alt="" />
-                                    </a>
-                                    <a href="#" class="mx-4">
-                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/pinterest-p.svg')}}" class="h-20px my-2" alt="" />
-                                    </a>
-                                    <a href="#" class="mx-4">
-                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/twitter.svg')}}" class="h-20px my-2" alt="" />
-                                    </a>
-                                    <a href="#" class="mx-4">
-                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/dribbble-icon-1.svg')}}" class="h-20px my-2" alt="" />
+                                    
+                                    <a href="{{$user->link_in}}" target="_blank" class="mx-4">
+                                        <img src="{{ asset('theme/assets/media/svg/brand-logos/icons8-linkedin-2-48.png')}}" class="h-20px my-2" alt="" />
                                     </a>
                                 </div>
                             </div>

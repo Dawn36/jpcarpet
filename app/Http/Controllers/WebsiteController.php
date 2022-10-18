@@ -13,7 +13,7 @@ class WebsiteController extends Controller
       ->join('users AS u', 'b.user_id', '=', 'u.id')
       ->select(DB::raw('b.*,u.`first_name`,u.`last_name`'))
       ->where('b.status', 'active')
-      ->orderBy('b.id', 'desc')->paginate(1);
+      ->orderBy('b.id', 'desc')->paginate(7);
       
         return view('website/blog',compact('blog'));
     }
