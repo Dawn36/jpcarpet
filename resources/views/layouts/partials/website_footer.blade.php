@@ -73,7 +73,7 @@
 					<div class="bor_top clearfix">
 						<p>
 							Copyright &copy; <a title="jp-carpet-cleaning-home" href="/"> JP Carpet Cleaning Expert Floor Care</a> All Rights Reserved<br>
-					<a title="jp-carpet-cleaning-rug-cleaning-mobile" href="{{route('area-rug-cleaning.html')}}"> Mobile Site</a></p>
+					<a title="jp-carpet-cleaning-rug-cleaning-mobile" href="{{route('amp/index.html')}}"> Mobile Site</a></p>
 						
 					</div>
 				</div>

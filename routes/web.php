@@ -174,6 +174,46 @@ Route::get('gallery.html', function () {
 })->name('gallery.html');
 
 
+Route::get('amp/index.html', function () {
+    return view('amp/index');
+})->name('amp/index.html');
+
+Route::get('amp/area-rug-cleaning.html', function () {
+    return view('amp/area-rug-cleaning');
+})->name('amp/area-rug-cleaning.html');
+
+Route::get('amp/carpet-cleaning.html', function () {
+    return view('amp/carpet-cleaning');
+})->name('amp/carpet-cleaning.html');
+
+Route::get('amp/upholstery-cleaning.html', function () {
+    return view('amp/upholstery-cleaning');
+})->name('amp/upholstery-cleaning.html');
+
+Route::get('amp/tile-and-grout-cleaning.html', function () {
+    return view('amp/tile-and-grout-cleaning');
+})->name('amp/tile-and-grout-cleaning.html');
+
+Route::get('amp/stone-restoration-and-repair.html', function () {
+    return view('amp/stone-restoration-and-repair');
+})->name('amp/stone-restoration-and-repair.html');
+
+Route::get('amp/regrout.html', function () {
+    return view('amp/regrout');
+})->name('amp/regrout.html');
+
+Route::get('amp/wood-floor-cleaning.html', function () {
+    return view('amp/wood-floor-cleaning');
+})->name('amp/wood-floor-cleaning.html');
+
+Route::get('amp/water-damage-restoration.html', function () {
+    return view('amp/water-damage-restoration');
+})->name('amp/water-damage-restoration.html');
+
+Route::get('amp/floor-maintenance-services.html', function () {
+    return view('amp/floor-maintenance-services');
+})->name('amp/floor-maintenance-services.html');
+
 
 
 require __DIR__.'/auth.php';
