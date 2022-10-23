@@ -103,7 +103,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="hollywood-carpet-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="hollywood-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-				<h4><a title="hollywood-carpet-cleaning" href="{{route('carpet-cleaning')}}">Hollywood Carpet Cleaning</a></h4>		
+				<h4><a title="hollywood-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Hollywood Carpet Cleaning</a></h4>		
               
 
             </div>
@@ -128,7 +128,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="Marble-polishing-and-restoration-hollywood" src="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills-small.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="Marble-polishing-and-restoration-hollywood" href="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="Marble-polishing-and-restoration-hollywood" href="{{route('stone-restoration-and-repair')}}">Hollywood Marble Polishing</a></h4>
+              <h4><a title="Marble-polishing-and-restoration-hollywood" href="{{route('stone-restoration-and-repair.html')}}">Hollywood Marble Polishing</a></h4>
             </div>
         </div>
 		  </div>
@@ -191,7 +191,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <div class="item-box"> <a><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-Beverly-Hills"/> </a>
                     <div class="link-zoom"> <a title="wood-floor-cleaning-hollywood" href="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="wood-floor-cleaning-hollywood" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning Hollywood</a></h4>
+						  <h4><a title="wood-floor-cleaning-hollywood" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning Hollywood</a></h4>
                       </div>
                     </div>
                   </div>

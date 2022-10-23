@@ -48,7 +48,7 @@ class BlogController extends Controller
         $request->validate([
             'file' => ['required'],
             'categories_id' => ['required'],
-            'blog_name' => ['required'],
+            'blog_name' => ['required','unique:blogs'],
             'description' => ['required'],
             'meta_title' => ['required'],
             'meta_description' => ['required'],
@@ -88,7 +88,7 @@ class BlogController extends Controller
             'alt_tag' =>$request->alt_tag,
             'categories_id' => $request->categories_id,
             'blog_thumbnail' => $path,
-            'blog_name' => $request->blog_name,
+            'blog_name' => strtolower($request->blog_name),
             'i_frame_link' => $request->i_frame_link,
             'description' => $request->description,
             'meta_title' => $request->meta_title,
@@ -148,7 +148,7 @@ class BlogController extends Controller
 
         $request->validate([
             'categories_id' => ['required'],
-            'blog_name' => ['required'],
+            'blog_name' => ['required','unique:blogs,blog_name,'.$id],
             'description' => ['required'],
             'meta_title' => ['required'],
             'meta_description' => ['required'],
@@ -172,7 +172,7 @@ class BlogController extends Controller
         $blog['categories_id'] = $request->categories_id;
         $blog['status'] = $status;
         $blog['alt_tag'] = $request->alt_tag;
-        $blog['blog_name'] = $request->blog_name;
+        $blog['blog_name'] = strtolower($request->blog_name);
         $blog['i_frame_link'] = $request->i_frame_link;
         $blog['description'] = $request->description;
         $blog['meta_title'] = $request->meta_title;

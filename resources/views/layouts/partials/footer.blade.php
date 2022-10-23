@@ -69,7 +69,7 @@ function addBlog() {
 
 $.ajax({
     type: 'GET',
-    url: "{{ route('blog.create') }}",
+    url: "{{ route('blogs.create') }}",
     success: function(result) {
         $('#myModalXlHeading').html('Add Blog');
         $('#modalBodyXl').html(result);

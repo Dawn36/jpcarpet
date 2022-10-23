@@ -15,7 +15,7 @@
                 <div class="top-info__block text-right">
                     <ul>
                         <li>
-                          <p><a href="{{route('service-areas')}}" title="Our-service-areas" style="font-size: 16px"><i class="fa fa-map-marker"></i> Our Service Areas</a></p>
+                          <p><a href="{{route('service-areas.html')}}" title="Our-service-areas" style="font-size: 16px"><i class="fa fa-map-marker"></i> Our Service Areas</a></p>
                         </li>
                         <li><p><a href="tel:+18182639314" title="jp-floor-care-phone" style="font-size: 16px"> 818-263-9314</a><i class="fa fa-phone"></i></p></li>
                         <li><p><a href="mailto:info@jpfloorcare.com" title="mail-to-jp-floor-care" style="font-size: 16px">info&#64;jpfloorcare.com</a><i class="fa fa-envelope" aria-hidden="true"></i></p></li>
@@ -39,33 +39,33 @@
                     <li> <a title="about-jp-carpet-cleaning-tab">About Us</a> <span class="submenu-button"> 
                         </span>
                         <ul class="dropdown-menu">
-                            <li> <a title="about-jp-carpet" href="{{route('about')}}">About Us</a> </li>
-                              <li> <a title="our-service-areas" href="{{route('service-areas')}}">Service Areas</a> </li>
-                            <li> <a title="reviews-and-testimonials" href="{{route('testimonials')}}">Testimonials</a> </li>
-                            <li> <a title="frequently-asked-carpet-cleaning-questions" href="{{route('faq')}}">FAQ</a> </li>
+                            <li> <a title="about-jp-carpet" href="{{route('about.html')}}">About Us</a> </li>
+                              <li> <a title="our-service-areas" href="{{route('service-areas.html')}}">Service Areas</a> </li>
+                            <li> <a title="reviews-and-testimonials" href="{{route('testimonials.html')}}">Testimonials</a> </li>
+                            <li> <a title="frequently-asked-carpet-cleaning-questions" href="{{route('faq.html')}}">FAQ</a> </li>
                         </ul>
                         
                     </li>
                     <li><a title="cleaning-services-tab">Services</a> <span class="submenu-button"> 
                         </span>
                       <ul class="dropdown-menu">
-                            <li> <a title="all-floor-restoration-services" href="{{route('services')}}">All Services</a> </li>
-                               <li> <a title="local-carpet-cleaning" href="{{route('carpet-cleaning')}}">Carpet Cleaning</a> </li>
-                            <li> <a title="local-area-rug-cleaning" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a> </li>
-                            <li> <a title="eco-friendly-upholstery-cleaning" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a> </li>
-                            <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a> </li>
-                            <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}">Stone Restoration and Repair</a> </li>
-                               <li> <a title="remove-and-replace-grout" href="{{route('regrout')}}">Regrouting</a> </li>
-                            <li> <a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning')}}">Wood Floor Cleaning</a> </li>
-                            <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a> </li>
-                            <li> <a title="floor-maintenance-strip-wax" href="{{route('floor-maintenance-services')}}">Floor Maintenance Services</a> </li>
+                            <li> <a title="all-floor-restoration-services" href="{{route('services.html')}}">All Services</a> </li>
+                               <li> <a title="local-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a> </li>
+                            <li> <a title="local-area-rug-cleaning" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a> </li>
+                            <li> <a title="eco-friendly-upholstery-cleaning" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a> </li>
+                            <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a> </li>
+                            <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration and Repair</a> </li>
+                               <li> <a title="remove-and-replace-grout" href="{{route('regrout.html')}}">Regrouting</a> </li>
+                            <li> <a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Cleaning</a> </li>
+                            <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a> </li>
+                            <li> <a title="floor-maintenance-strip-wax" href="{{route('floor-maintenance-services.html')}}">Floor Maintenance Services</a> </li>
                           </ul>
                     </li>
-                    <li> <a title="local-carpet-and-upholstery-coupons" href="{{route('specials')}}">Specials</a> </li>
-                    <li> <a title="completed-jobs" href="{{route('gallery')}}">Gallery</a> </li>
-                    <li> <a title="blog" href="{{route('blogs')}}">Blog</a> </li>
+                    <li> <a title="local-carpet-and-upholstery-coupons" href="{{route('specials.html')}}">Specials</a> </li>
+                    <li> <a title="completed-jobs" href="{{route('gallery.html')}}">Gallery</a> </li>
+                    <li> <a title="blog" href="{{route('blog.html')}}">Blog</a> </li>
                     
-                    <li> <a title="contact-us" href="{{route('contact')}}">Contact us</a> </li>
+                    <li> <a title="contact-us" href="{{route('contact.html')}}">Contact us</a> </li>
                     @if(!Auth::check())
                     <li> <a title="Sign In" href="{{route('login')}}">Sign In</a> </li>
                     @endif

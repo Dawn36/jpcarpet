@@ -111,9 +111,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-30">
 						<div class="service_box">
 							<figure>
-								<a title="Carpet-scrubbing-in-Marina-del-rey" href="{{route('carpet-cleaning')}}"><img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-cleaning-marina-del-rey.jpg')}}" alt="Carpet-scrubbing-in-Marina-del-rey" /></a>
+								<a title="Carpet-scrubbing-in-Marina-del-rey" href="{{route('carpet-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-cleaning-marina-del-rey.jpg')}}" alt="Carpet-scrubbing-in-Marina-del-rey" /></a>
 							</figure>
-							<h3><a title="Carpet-scrubbing-in-Marina-del-rey" href="{{route('carpet-cleaning')}}">Carpet Cleaning</a></h3>
+							<h3><a title="Carpet-scrubbing-in-Marina-del-rey" href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a></h3>
 							<p>
 								Hot water extraction, steam cleaning, whatever you want to call it, our carpet cleaning services are simply the best. 
 							</p>
@@ -123,9 +123,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								<a title="persian-rug-cleaning-brentwood" href="{{route('area-rug-cleaning')}}"><img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/persian-rug-cleaning-brentwood.jpg')}}" alt="persian-rug-cleaning-brentwood"/></a>
+								<a title="persian-rug-cleaning-brentwood" href="{{route('area-rug-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/persian-rug-cleaning-brentwood.jpg')}}" alt="persian-rug-cleaning-brentwood"/></a>
 							</figure>
-							<h3><a title="persian-rug-cleaning-brentwood" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a></h3>
+							<h3><a title="persian-rug-cleaning-brentwood" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a></h3>
 							<p>
           An area rug's delicate beauty must be treasured. Our area rug cleaning techniques will maintain that beauty. 
 							</p>
@@ -135,9 +135,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-sm-30 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								 <a title="couch-cleaning-northridge" href="{{route('upholstery-cleaning')}}"><img src="{{ asset('theme/website/Image/Upholstery/couch-cleaning-northridge.jpg')}}" alt="couch-cleaning-northridge" /></a>
+								 <a title="couch-cleaning-northridge" href="{{route('upholstery-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Upholstery/couch-cleaning-northridge.jpg')}}" alt="couch-cleaning-northridge" /></a>
 							</figure>
-							<h3><a title="couch-cleaning-northridge" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a></h3>
+							<h3><a title="couch-cleaning-northridge" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a></h3>
 							<p>Couches, loveseats, chairs, sectionals, recliners: all upholstered furniture. And JP Carpet Cleaning can clean it all.</p>
 						</div>
 					</div>
@@ -145,9 +145,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								<a title="Tile-cleaning-valley-glen" href="{{route('tile-and-grout-cleaning')}}"><img src="{{ asset('theme/website/Image/Tile-&-Grout/Tile-cleaning-valley-glen.jpg')}}" alt="Tile-cleaning-valley-glen" /></a> 
+								<a title="Tile-cleaning-valley-glen" href="{{route('tile-and-grout-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Tile-&-Grout/Tile-cleaning-valley-glen.jpg')}}" alt="Tile-cleaning-valley-glen" /></a> 
 							</figure>
-							<h3><a title="Tile-cleaning-valley-glen" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a></h3>
+							<h3><a title="Tile-cleaning-valley-glen" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a></h3>
 							<p>
 								Tile and grout cleaning and restoration is an art. An art that we have spent years practicing and perfecting, just for you.
 							</p>
@@ -157,9 +157,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								<a title="terrazzo-polishing-and-repair-porter-ranch" href="{{route('stone-restoration-and-repair')}}"><img src="{{ asset('theme/website/Image/Stone-Restoration/terrazzo-polishing-and-repair-porter-ranch.jpg')}}" alt="terrazzo-polishing-and-repair-porter-ranch" /></a>
+								<a title="terrazzo-polishing-and-repair-porter-ranch" href="{{route('stone-restoration-and-repair.html')}}"><img src="{{ asset('theme/website/Image/Stone-Restoration/terrazzo-polishing-and-repair-porter-ranch.jpg')}}" alt="terrazzo-polishing-and-repair-porter-ranch" /></a>
 							</figure>
-							<h3><a title="terrazzo-polishing-and-repair-porter-ranch" href="{{route('stone-restoration-and-repair')}}">Stone Restoration</a></h3>
+							<h3><a title="terrazzo-polishing-and-repair-porter-ranch" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration</a></h3>
 							<p>
 							Terrazzo, marble, travertine, and more; floor polishing and countertop restoration; your stone back to life.
 							</p>
@@ -169,9 +169,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								<a title="regrouting-grout-removal-beverly-glen" href="{{route('regrout')}}"><img src="{{ asset('theme/website/Image/Regrout/regrouting-beverly-glen.jpg')}}" alt="regrouting-grout-removal-beverly-glen" /></a>
+								<a title="regrouting-grout-removal-beverly-glen" href="{{route('regrout.html')}}"><img src="{{ asset('theme/website/Image/Regrout/regrouting-beverly-glen.jpg')}}" alt="regrouting-grout-removal-beverly-glen" /></a>
 							</figure>
-							<h3><a title="regrouting-grout-removal-beverly-glen" href="{{route('regrout')}}">Regrouting</a></h3>
+							<h3><a title="regrouting-grout-removal-beverly-glen" href="{{route('regrout.html')}}">Regrouting</a></h3>
 							<p>
 								Cleaning and scrubbing not enough? Regrouting may be the next step to restore your stained or damaged grout.
 							</p>
@@ -181,9 +181,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								 <a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning')}}"><img src="{{ asset('theme/website/Image/Wood-Flooring/lake-balboa-Hardwood-Refinshing-and-cleaning.jpg')}}" alt="wood-floor-cleaning-and-refinishing" /></a>
+								 <a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Wood-Flooring/lake-balboa-Hardwood-Refinshing-and-cleaning.jpg')}}" alt="wood-floor-cleaning-and-refinishing" /></a>
 							</figure>
-							<h3><a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning')}}">Wood Floor Services</a></h3>
+							<h3><a title="wood-floor-cleaning-and-refinishing" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Services</a></h3>
 							<p>
 								We offer a wide range of hardwood floor services, including repair, refinishing, and cleaning. What does your floor need?
 							</p>
@@ -193,9 +193,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-							<a title="commercial-water-damage-restoration" href="{{route('water-damage-restoration')}}"><img src="{{ asset('theme/website/Image/Water-Damage/water-damage-commercial-brentwood.jpg')}}" alt="commercial-water-damage-restoration" /></a>
+							<a title="commercial-water-damage-restoration" href="{{route('water-damage-restoration.html')}}"><img src="{{ asset('theme/website/Image/Water-Damage/water-damage-commercial-brentwood.jpg')}}" alt="commercial-water-damage-restoration" /></a>
 							</figure>
-							<h3><a title="commercial-water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a></h3>
+							<h3><a title="commercial-water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a></h3>
 							<p>
 								 No one is ready for a burst pipe. Rest-assured, JP's water damage restoration specialists are here to help.
 							</p>
@@ -205,9 +205,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-md-6 col-lg-4 mb-xs-30">
 						<div class="service_box">
 							<figure>
-								<a title="strip-and-wax-downtown-Los-Angeles" href="{{route('floor-maintenance-services')}}"><img src="{{ asset('theme/website/Image/Strip-&-Wax/strip-and-wax-downtown-LA.jpg')}}" alt="strip-and-wax-downtown-Los-Angeles" /></a>
+								<a title="strip-and-wax-downtown-Los-Angeles" href="{{route('floor-maintenance-services.html')}}"><img src="{{ asset('theme/website/Image/Strip-&-Wax/strip-and-wax-downtown-LA.jpg')}}" alt="strip-and-wax-downtown-Los-Angeles" /></a>
 							</figure>
-							<h3><a title="strip-and-wax-downtown-Los-Angeles" href="{{route('floor-maintenance-services')}}">Floor Maintenance Services</a></h3>
+							<h3><a title="strip-and-wax-downtown-Los-Angeles" href="{{route('floor-maintenance-services.html')}}">Floor Maintenance Services</a></h3>
 							<p>
 								Sometimes it's best to have professional cleaning on a regular schedule. Our floor maintenance services is just that.
 							</p>

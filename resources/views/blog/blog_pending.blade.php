@@ -89,7 +89,7 @@
                                         <tr>
                                             <td>{{$a}}</td>
                                             <td>
-                                                <a href="{{route('blog.show',$blog[$i]->id)}}" class="fw-bolder text-hover-primary">{{ucwords($blog[$i]->blog_name)}}</a>
+                                                <a href="{{route('blogs.show',$blog[$i]->id)}}" class="fw-bolder text-hover-primary">{{ucwords($blog[$i]->blog_name)}}</a>
                                             </td>
                                            
                                             <td>{{ucwords($blog[$i]->name)}}</td>

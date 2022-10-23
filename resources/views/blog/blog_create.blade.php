@@ -1,4 +1,4 @@
-<form id="" class="form d-flex flex-column flex-lg-row" method="POST" action="{{ route('blog.store') }}" enctype="multipart/form-data">
+<form id="" class="form d-flex flex-column flex-lg-row" method="POST" action="{{ route('blogs.store') }}" enctype="multipart/form-data">
     @csrf
     <div class="d-flex flex-column gap-7 gap-lg-10 w-100 w-lg-300px mb-7 me-lg-10">
         <div class="card card-flush py-4">

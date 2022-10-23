@@ -136,10 +136,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a><img alt="Spanish tile Restoration" src="{{ asset('theme/website/Image/Spanish-Tile/Hollywood-outdoor-spanish-tile-sealing.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a href="{{route('stone-restoration-and-repair')}}" title="stone-restoration-los-angeles" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a href="{{route('stone-restoration-and-repair.html')}}" title="stone-restoration-los-angeles" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a href="{{ asset('theme/website/Image/Spanish-Tile/Hollywood-outdoor-spanish-tile-sealing-600.jpg')}}" title="Spanish Tile Cleaning" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="stone-restoration-pacific-palisades" href="{{route('stone-restoration-and-repair')}}">Spanish Tile Restoration</a></h4>
+									<h4><a title="stone-restoration-pacific-palisades" href="{{route('stone-restoration-and-repair.html')}}">Spanish Tile Restoration</a></h4>
 
 								</div>
 							</div>
@@ -151,10 +151,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="area rug cleaning" src="{{ asset('theme/website/Image/Area-Rug-Cleaning/winnetka-area-rug-cleaning.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="are-rug-cleaning-tarzana" href="{{route('area-rug-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="are-rug-cleaning-tarzana" href="{{route('area-rug-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="area-rug-cleaning-burbank" href="{{ asset('theme/website/Image/Area-Rug-Cleaning/winnetka-area-rug-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="persian-rug-cleaning-los-angeles" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a></h4>
+									<h4><a title="persian-rug-cleaning-los-angeles" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a></h4>
 
 								</div>
 							</div>
@@ -166,10 +166,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="canoga-park-tile-and-grout-cleaning" src="{{ asset('theme/website/Image/Tile-&-Grout/canoga-park-tile-and-grout-cleaning.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a  title="canoga-park-tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a  title="canoga-park-tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="northridge-tile-and-grout-cleaning" href="{{ asset('theme/website/Image/Tile-&-Grout/canoga-park-tile-and-grout-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="granada-hills-tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a></h4>
+									<h4><a title="granada-hills-tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a></h4>
 
 								</div>
 							</div>
@@ -181,10 +181,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="beverly-glen-wood-floor-refinishing" src="{{ asset('theme/website/Image/Wood-Flooring/beverly-glen-wood-floor-refinishing.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="beverly-glen-wood-floor-installation" href="{{route('wood-floor-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="beverly-glen-wood-floor-installation" href="{{route('wood-floor-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="sherman-oaks-wood-floor-cleaning" href="{{ asset('theme/website/Image/Wood-Flooring/beverly-glen-wood-floor-refinishing.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning')}}">Hardwood Staining</a></h4>
+									<h4><a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning.html')}}">Hardwood Staining</a></h4>
 
 								</div>
 							</div>
@@ -196,10 +196,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="doctor office floor strip and wax" src="{{ asset('theme/website/Image/Strip-&-Wax/woodland-hills-strip-and-wax.jpg')}}" class="item-container"> </a>
 						<div class="link-zoom">
-								<a title="commercial-floor-cleaning" href="{{route('floor-maintenance-services')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="commercial-floor-cleaning" href="{{route('floor-maintenance-services.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="commercial-floor-cleaning-los-angeles" href="{{ asset('theme/website/Image/Strip-&-Wax/woodland-hills-strip-and-wax.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="residential-floor-maintenance" href="{{route('floor-maintenance-services')}}">Strip and Wax</a></h4>
+									<h4><a title="residential-floor-maintenance" href="{{route('floor-maintenance-services.html')}}">Strip and Wax</a></h4>
 
 								</div>
 							</div>
@@ -211,10 +211,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="chatsworth-upholstery-cleaning" src="{{ asset('theme/website/Image/Upholstery/chatsworth-upholstery-cleaning.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="furniture-steam-cleaning" href="{{ asset('theme/website/Image/Upholstery/chatsworth-upholstery-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="couch-cleaning-steam" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a></h4>
+									<h4><a title="couch-cleaning-steam" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a></h4>
 
 								</div>
 							</div>
@@ -226,10 +226,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a title="sherman-oaks-carpet-stairs-cleaning"> <img alt="sherman-oaks-carpet-stairs-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/sherman-oaks-carpet-stairs-cleaning.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="glendale-carpet-cleaning" href="{{route('carpet-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="glendale-carpet-cleaning" href="{{route('carpet-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="hollywood-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/sherman-oaks-carpet-stairs-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="carpet-cleaning-universal" href="{{route('carpet-cleaning')}}">Carpet Steam Cleaning</a></h4>
+									<h4><a title="carpet-cleaning-universal" href="{{route('carpet-cleaning.html')}}">Carpet Steam Cleaning</a></h4>
 
 								</div>
 							</div>
@@ -240,10 +240,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="hancock-park-hardwood-refinishing" src="{{ asset('theme/website/Image/Wood-Flooring/hancock-park-hardwood-refinishing.jpg')}}"  class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								 <a title="wood-floor-cleaning-los-angeles" href="{{ asset('theme/website/Image/Wood-Flooring/hancock-park-hardwood-refinishing600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="hardwood-floor-repair" href="{{route('wood-floor-cleaning')}}">Hardwood Refinishing</a></h4>
+									<h4><a title="hardwood-floor-repair" href="{{route('wood-floor-cleaning.html')}}">Hardwood Refinishing</a></h4>
 
 								</div>
 							</div>
@@ -255,10 +255,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="terrazzo-polishing-beverly-hills" src="{{ asset('theme/website/Image/Stone-Restoration/robinson-may-gardens-terrazzo-polishing-beverly-hills.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="stone-polishing-los-angeles" href="{{route('stone-restoration-and-repair')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="stone-polishing-los-angeles" href="{{route('stone-restoration-and-repair.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="marble-polishing-and-repair" href="{{ asset('theme/website/Image/Stone-Restoration/robinson-may-gardens-terrazzo-polishing-beverly-hills600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="natural-stone-restoration" href="{{route('stone-restoration-and-repair')}}">Terrazzo Polishing</a></h4>
+									<h4><a title="natural-stone-restoration" href="{{route('stone-restoration-and-repair.html')}}">Terrazzo Polishing</a></h4>
 
 								</div>
 							</div>
@@ -270,10 +270,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="valley-village-water-damage-restoration" src="{{ asset('theme/website/Image/Water-Damage/valley-village-water-damage-restoration.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="water-damage-restoration" href="{{route('water-damage-restoration')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="fire-and-water-damage-restoration" href="{{ asset('theme/website/Image/Water-Damage/valley-village-water-damage-restoration-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="smoke-remediation" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a></h4>
+									<h4><a title="smoke-remediation" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a></h4>
 
 								</div>
 							</div>
@@ -284,10 +284,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="item-box">
 							<a> <img alt="Regrouting-in-marina-del-rey" src="{{ asset('theme/website/Image/Regrout/BA-Regrout-marina-del-rey.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="regrouting" href="{{route('regrout')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="regrouting" href="{{route('regrout.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<a title="remove-and-replace-old-grout" href="{{ asset('theme/website/Image/Regrout/BA-Regrout-marina-del-rey-600.jpg')}}"  class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
 								<div class="gallery-heading">
-									<h4><a title="grout-repair" href="{{route('regrout')}}">Regrouting</a></h4>
+									<h4><a title="grout-repair" href="{{route('regrout.html')}}">Regrouting</a></h4>
 
 								</div>
 							</div>
@@ -340,21 +340,21 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-lg-2.5 link_footer">
 						<h4>Our Services</h4>
 						<ul>
-							 <li> <a title="carpet-cleaning"  href="{{route('carpet-cleaning')}}">Carpet Cleaning</a> </li>
-        				     <li> <a title="area-rug-cleaning" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a> </li>
-              				 <li> <a title="upholstery-cleaning" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a> </li>
-              				 <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a> </li>
-              				 <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}">Stone Restoration and Repair</a> </li>
+							 <li> <a title="carpet-cleaning"  href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a> </li>
+        				     <li> <a title="area-rug-cleaning" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a> </li>
+              				 <li> <a title="upholstery-cleaning" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a> </li>
+              				 <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a> </li>
+              				 <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration and Repair</a> </li>
 						</ul>
 					</div>
 
 					<div class="col-lg-2.5 link_footer">
 						<div class="pt-5"></div>
 						<ul>
-							  <li> <a title="regrouting-service" href="{{route('regrout')}}">Regrouting</a> </li>
-              <li> <a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning')}}">Wood Floor Cleaning</a> </li>
-              <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a> </li>
-              <li> <a title="floor-maintenance-services" href="{{route('floor-maintenance-services')}}">Floor Maintenance Services</a> </li>
+							  <li> <a title="regrouting-service" href="{{route('regrout.html')}}">Regrouting</a> </li>
+              <li> <a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Cleaning</a> </li>
+              <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a> </li>
+              <li> <a title="floor-maintenance-services" href="{{route('floor-maintenance-services.html')}}">Floor Maintenance Services</a> </li>
              
 						</ul>
 					</div>
@@ -364,7 +364,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<ul>
               <li><a title="jp-carpet-cleaning-phone" href="tel:+18182639314"><i class="fa fa-phone"></i> Call Us +1 (818) 263 9314 </a></li>
 			  <li><a title="mail-to-jp-carpet-and-floor-care" href="mailto:info@jpfloorcare.com"><i class="fa fa-envelope-o"></i> info&#64;jpfloorcare.com</a></li>
-			  <li><a title="our-service-areas" href="{{route('service-areas')}}" rel="nofollow"><i class="fa fa-map-marker"></i> Our Service Areas</a></li>
+			  <li><a title="our-service-areas" href="{{route('service-areas.html')}}" rel="nofollow"><i class="fa fa-map-marker"></i> Our Service Areas</a></li>
 		  	  <li><a title="our-business-hours" href="#"> <i class="fa fa-clock-o"></i> Monday-Saturday, 7am-6pm;<br>Sunday Closed; Phone Always Open</a></li>
 						</ul>
 					</div>

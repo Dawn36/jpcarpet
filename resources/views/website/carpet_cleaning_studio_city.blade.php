@@ -100,7 +100,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a alt="studio-city-carpet-cleaning"> <img alt="studio-city-carpet-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a alt="studio-city-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-				<h4><a title="studio-city-carpet-cleaning" href="{{route('carpet-cleaning')}}">Studio City, CA - Carpet Cleaning</a></h4>		
+				<h4><a title="studio-city-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Studio City, CA - Carpet Cleaning</a></h4>		
               
 
             </div>
@@ -125,7 +125,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a title="Marble-polishing-and-restoration-studio-city"> <img alt="Marble-polishing-and-restoration-studio-city" src="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills-small.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="Marble-polishing-and-restoration-studio-city" href="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="Marble-polishing-and-restoration-studio-city" href="{{route('stone-restoration-and-repair')}}">Studio City, CA - Marble Polishing</a></h4>
+              <h4><a title="Marble-polishing-and-restoration-studio-city" href="{{route('stone-restoration-and-repair.html')}}">Studio City, CA - Marble Polishing</a></h4>
             </div>
         </div>
 		  </div>
@@ -188,7 +188,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <div class="item-box"> <a title="Hardwood-Floor-Cleaning-studio-city"><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-studio-city"/> </a>
                     <div class="link-zoom"> <a title="Hardwood-Floor-Cleaning-studio-city" href="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="Hardwood-Floor-Cleaning-studio-city" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning - Studio City, CA</a></h4>
+						  <h4><a title="Hardwood-Floor-Cleaning-studio-city" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning - Studio City, CA</a></h4>
                       </div>
                     </div>
                   </div>

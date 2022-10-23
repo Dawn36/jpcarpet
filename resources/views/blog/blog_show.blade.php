@@ -180,7 +180,7 @@
 <script>
 
     function editblog(id) {
-        url = "{{ route('blog.edit', ':id') }}";
+        url = "{{ route('blogs.edit', ':id') }}";
         url = url.replace(':id', id);
         $.ajax({
             type: 'GET',

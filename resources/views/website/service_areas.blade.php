@@ -120,7 +120,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
               <dt>Tarzana</dt>
               <dt><a title="carpet-cleaning-studio-city" href="https://www.carpetcleanerstudiocity.com">Studio City</a></dt>
               <dt>Lake Balboa</dt>
-              <dt><a title="woodland-hills-carpet-cleaning" href="{{route('woodland-hills-carpet-cleaning')}}">Woodland Hills</a></dt>
+              <dt><a title="woodland-hills-carpet-cleaning" href="{{route('woodland-hills-carpet-cleaning.html')}}">Woodland Hills</a></dt>
               <dt>Reseda</dt>
 				<dt>Universal City</dt>				
 		    </ul>
@@ -135,16 +135,16 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="about-box">
 							
 							<ul>
-              <dt><a title="brentwood-area-rug-cleaning" href={{route('brentwood-area-rug-cleaning')}}>Brentwood</a></dt>
-              <dt><a title="beverly-hills-floor-restoration" href="{{route('beverly-hills-floor-restoration')}}">Beverly Hills</a></dt>
+              <dt><a title="brentwood-area-rug-cleaning" href={{route('brentwood-area-rug-cleaning.html')}}>Brentwood</a></dt>
+              <dt><a title="beverly-hills-floor-restoration" href="{{route('beverly-hills-floor-restoration.html')}}">Beverly Hills</a></dt>
               <dt>Bel Air</dt>
               <dt>West Hollywood</dt>
               <dt>West Los Angeles</dt>
-              <dt><a title="culver-city-tile-cleaning" href="{{route('culver-city-tile-cleaning')}}">Culver City</a></dt>
-              <dt><a title="santa-monica-floor-cleaning" href="{{route('santa-monica-floor-cleaning')}}">Santa Monica</a></dt>
+              <dt><a title="culver-city-tile-cleaning" href="{{route('culver-city-tile-cleaning.html')}}">Culver City</a></dt>
+              <dt><a title="santa-monica-floor-cleaning" href="{{route('santa-monica-floor-cleaning.html')}}">Santa Monica</a></dt>
               <dt>Pacific Palisades</dt>
               <dt>Marina Del Rey</dt>
-								<dt><a title="los-angeles-carpet-floor-care" href="{{route('los-angeles-carpet-floor-care')}}">Los Angeles</a></dt>
+								<dt><a title="los-angeles-carpet-floor-care" href="{{route('los-angeles-carpet-floor-care.html')}}">Los Angeles</a></dt>
 		    </ul>
 							
 							
@@ -161,12 +161,12 @@ script.src = target;var elem = document.head;elem.appendChild(script);
               <dt>Valley Village</dt>
               <dt>North Hollywood</dt>
               <dt>Hollywood Hills</dt>
-              <dt><a title="hollywood-floor-cleaning" href="{{route('hollywood-floor-cleaning')}}">Hollywood</a></dt>
+              <dt><a title="hollywood-floor-cleaning" href="{{route('hollywood-floor-cleaning.html')}}">Hollywood</a></dt>
               <dt>Los Feliz</dt>
               <dt>Silverlake</dt>
-              <dt><a title="carpet-cleaning-burbank" href="{{route('carpet-cleaning-burbank')}}">Burbank</a></dt>
-              <dt><a title="glendale-carpet-cleaning" href="{{route('glendale-carpet-cleaning')}}">Glendale</a></dt>
-								<dt><a title="pasadena-floor-cleaning" href="{{route('pasadena-floor-cleaning')}}">Pasadena</a></dt>
+              <dt><a title="carpet-cleaning-burbank" href="{{route('carpet-cleaning-burbank.html')}}">Burbank</a></dt>
+              <dt><a title="glendale-carpet-cleaning" href="{{route('glendale-carpet-cleaning.html')}}">Glendale</a></dt>
+								<dt><a title="pasadena-floor-cleaning" href="{{route('pasadena-floor-cleaning.html')}}">Pasadena</a></dt>
 		    </ul>
 							
 							
@@ -180,10 +180,10 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="about-box">
 							
 							<ul>
-             <dt><a title="northridge-floor-restoration" href="{{route('northridge-floor-restoration')}}">Northridge</a></dt>
-              <dt><a title="granada-hills-carpet-cleaning" href="{{route('granada-hills-carpet-cleaning')}}">Granada Hills</a></dt>
+             <dt><a title="northridge-floor-restoration" href="{{route('northridge-floor-restoration.html')}}">Northridge</a></dt>
+              <dt><a title="granada-hills-carpet-cleaning" href="{{route('granada-hills-carpet-cleaning.html')}}">Granada Hills</a></dt>
               <dt>North Hills</dt>
-              <dt><a title="porter-ranch-floor-restoration" href="{{route('porter-ranch-floor-restoration')}}">Porter Ranch</a></dt>
+              <dt><a title="porter-ranch-floor-restoration" href="{{route('porter-ranch-floor-restoration.html')}}">Porter Ranch</a></dt>
               <dt>Chatsworth</dt>
               <dt>Winnetka</dt>
               <dt>Canoga Park</dt>

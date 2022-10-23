@@ -315,9 +315,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<div class="service_slider_home next_btn_style">
 							<div class="service_box">
 								<figure>
-									<a title="carpet-cleaning-los-angeles" href="{{route('carpet-cleaning')}}"><img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-steam-cleaning-encino.jpg')}}" alt="Carpet steam cleaning residential encino"/></a>
+									<a title="carpet-cleaning-los-angeles" href="{{route('carpet-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-steam-cleaning-encino.jpg')}}" alt="Carpet steam cleaning residential encino"/></a>
 								</figure>
-								<h3><a title="carpet-cleaning-sherman-oaks" href="{{route('carpet-cleaning')}}">Carpet Cleaning</a></h3>
+								<h3><a title="carpet-cleaning-sherman-oaks" href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a></h3>
 								<p>
 									We are the best in the carpet cleaning business! Our carpet cleaning methods, perfected over a decade, provide you with the best in hot water extraction and carpet steaming.
 								</p>
@@ -325,9 +325,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 
 							<div class="service_box">
 								<figure>
-									<a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning')}}"><img src="{{ asset('theme/website/Image/Tile-&-Grout/Tile-steam-cleaning-sherman-oaks.jpg')}}" alt="tile and grout cleaning travertine" /></a>
+									<a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Tile-&-Grout/Tile-steam-cleaning-sherman-oaks.jpg')}}" alt="tile and grout cleaning travertine" /></a>
 								</figure>
-								<h3><a title="tile-and-grout-cleaning-studio-city" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a></h3>
+								<h3><a title="tile-and-grout-cleaning-studio-city" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a></h3>
 								<p>
 									With both manual and machine scrubbing, and our perfected tile and grout steam cleaning methods, we are the tile cleaning team for even the toughest of jobs!
 								</p>
@@ -335,9 +335,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 
 							<div class="service_box">
 								<figure>
-									<a title="upholstery-cleaning-tarzana" href="{{route('upholstery-cleaning')}}"><img src="{{ asset('theme/website/Image/Upholstery/encino-upholstery-cleaning.jpg')}}" alt="upholstery cleaning tarzana" /></a>
+									<a title="upholstery-cleaning-tarzana" href="{{route('upholstery-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Upholstery/encino-upholstery-cleaning.jpg')}}" alt="upholstery cleaning tarzana" /></a>
 								</figure>
-								<h3><a title="upholstery-cleaning-woodland-hills" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a></h3>
+								<h3><a title="upholstery-cleaning-woodland-hills" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a></h3>
 								<p>
 									Upholstery can trap allergens within the fibers. Our eco-friendly upholstery cleaning methods will clean and sanitize your furniture, and whatever else you throw at us.
 								</p>
@@ -345,9 +345,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 
 							<div class="service_box">
 								<figure>
-									<a title="area-rug-cleaning-beverly-hills" href="{{route('area-rug-cleaning')}}"><img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/Handmade-rug-cleaning-tarzana (1).jpg')}}" alt="Persian rug professional cleaning" /></a>
+									<a title="area-rug-cleaning-beverly-hills" href="{{route('area-rug-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/Handmade-rug-cleaning-tarzana (1).jpg')}}" alt="Persian rug professional cleaning" /></a>
 								</figure>
-								<h3><a title="area-rug-cleaning-encino" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a></h3>
+								<h3><a title="area-rug-cleaning-encino" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a></h3>
 								<p>
 									Area rugs are an investment and can tie your home together. But with every footstep they gather dirt and dust and stains, requiring quality cleaning services.
 								</p>
@@ -355,9 +355,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 
 							<div class="service_box">
 								<figure>
-									<a title="stone-restoration-porter-ranch" href="{{route('stone-restoration-and-repair')}}"><img src="{{ asset('theme/website/Image/Stone-Restoration/stone-restoration-los-feliz.jpg')}}" alt="marble stone restoration in los feliz" /></a>
+									<a title="stone-restoration-porter-ranch" href="{{route('stone-restoration-and-repair.html')}}"><img src="{{ asset('theme/website/Image/Stone-Restoration/stone-restoration-los-feliz.jpg')}}" alt="marble stone restoration in los feliz" /></a>
 								</figure>
-								<h3><a title="marble-polishing-los-angeles" href="{{route('stone-restoration-and-repair')}}">Stone Restoration</a></h3>
+								<h3><a title="marble-polishing-los-angeles" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration</a></h3>
 								<p>
 									We offer stone restoration for all types of natural stone, including marble, travertine, slate, and terrazzo. Our experts are ready to help you with reliable stone restoration services.
 								</p>
@@ -365,18 +365,18 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 
 							<div class="service_box">
 								<figure>
-									<a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning')}}"><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-staining-woodland-hills.jpg')}}" alt="wood-floor-refinishing-and-staining" /></a>
+									<a title="wood-floor-refinishing" href="{{route('wood-floor-cleaning.html')}}"><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-staining-woodland-hills.jpg')}}" alt="wood-floor-refinishing-and-staining" /></a>
 								</figure>
-								<h3><a title="wood-floor-installation" href="{{route('wood-floor-cleaning')}}">Wood Floor Refinishing</a></h3>
+								<h3><a title="wood-floor-installation" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Refinishing</a></h3>
 								<p>
 									We provide quality wood floor services to keep your elegant hardwood floors looking their best. From a simple cleaning to a full refinishing, we can help you achieve your vision.
 								</p>
 							</div>
 							<div class="service_box">
 								<figure>
-									<a title="water-damage-restoration" href="{{route('water-damage-restoration')}}"><img src="{{ asset('theme/website/Image/Water-Damage/sherman-oaks-water-damage-restoration-new.jpg')}}" alt="water-damage-restoration-dehumidifier" /></a>
+									<a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}"><img src="{{ asset('theme/website/Image/Water-Damage/sherman-oaks-water-damage-restoration-new.jpg')}}" alt="water-damage-restoration-dehumidifier" /></a>
 								</figure>
-								<h3><a title="sherman-oaks-water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a></h3>
+								<h3><a title="sherman-oaks-water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a></h3>
 								<p>
 								 We provide quality water damage restoration services for when your roof leaks or pipes burst. No one ever expects water damage, but we're here to help you through it.
 								</p>
@@ -384,9 +384,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 							
 							<div class="service_box">
 								<figure>
-									<a title="strip-and-wax-commercial-services" href="{{route('floor-maintenance-services')}}"><img src="{{ asset('theme/website/Image/Strip-&-Wax/strip-and-wax-floor-maintenance.jpg')}}" alt="water-damage-restoration-dehumidifier" /></a>
+									<a title="strip-and-wax-commercial-services" href="{{route('floor-maintenance-services.html')}}"><img src="{{ asset('theme/website/Image/Strip-&-Wax/strip-and-wax-floor-maintenance.jpg')}}" alt="water-damage-restoration-dehumidifier" /></a>
 								</figure>
-								<h3><a title="strip-and-wax-commercial-services" href="{{route('floor-maintenance-services')}}">Strip and Wax</a></h3>
+								<h3><a title="strip-and-wax-commercial-services" href="{{route('floor-maintenance-services.html')}}">Strip and Wax</a></h3>
 								<p>
 									Fresh wax can leave a floor sparkling and beautiful. When time passes, the wax becomes dull and lifeless. We offer a strip and wax service for this very reason, to restore your floors.
 								</p>
@@ -394,9 +394,9 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 							
 							<div class="service_box">
 								<figure>
-									<a title="remove-and-replace-old-grout" href="{{route('regrout')}}"><img src="{{ asset('theme/website/Image/Regrout/water-in-the-walls-regrouting.jpg')}}" alt="regrouting-shower-with-water-in-the-walls" /></a>
+									<a title="remove-and-replace-old-grout" href="{{route('regrout.html')}}"><img src="{{ asset('theme/website/Image/Regrout/water-in-the-walls-regrouting.jpg')}}" alt="regrouting-shower-with-water-in-the-walls" /></a>
 								</figure>
-								<h3><a title="grout-and-tile-repair" href="{{route('regrout')}}">Regrouting and Repair</a></h3>
+								<h3><a title="grout-and-tile-repair" href="{{route('regrout.html')}}">Regrouting and Repair</a></h3>
 								<p>
 									When the grout in your bathroom becomes stained beyond cleaning, crumbles, or allows water to seep through the lines, regrouting might be your best option.
 								</p>
@@ -468,11 +468,11 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
               <dt>Sherman Oaks</dt>
               <dt>Van Nuys</dt>
               <dt>Valley Glen</dt>
-              <dt><a title="encino-upholstery-cleaning" href="{{route('encino-upholstery-cleaning')}}">Encino</a></dt>
+              <dt><a title="encino-upholstery-cleaning" href="{{route('encino-upholstery-cleaning.html')}}">Encino</a></dt>
               <dt>Tarzana</dt>
-              <dt><a title="carpet-cleaning-studio-city" href="{{route('carpet-cleaning-studio-city')}}">Studio City</a></dt>
+              <dt><a title="carpet-cleaning-studio-city" href="{{route('carpet-cleaning-studio-city.html')}}">Studio City</a></dt>
               <dt>Lake Balboa</dt>
-              <dt><a title="woodland-hills-carpet-cleaning" href="{{route('woodland-hills-carpet-cleaning')}}">Woodland Hills</a></dt>
+              <dt><a title="woodland-hills-carpet-cleaning" href="{{route('woodland-hills-carpet-cleaning.html')}}">Woodland Hills</a></dt>
               <dt>Reseda</dt>
 				<dt>Universal City</dt>				
 		    </ul>
@@ -487,16 +487,16 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="about-box">
 							<div class="about-text">
 							<ul>
-              <dt><a title="brentwood-area-rug-cleaning" href="{{route('brentwood-area-rug-cleaning')}}">Brentwood</a></dt>
-              <dt><a title="beverly-hills-floor-restoration" href="{{route('beverly-hills-floor-restoration')}}">Beverly Hills</a></dt>
+              <dt><a title="brentwood-area-rug-cleaning" href="{{route('brentwood-area-rug-cleaning.html')}}">Brentwood</a></dt>
+              <dt><a title="beverly-hills-floor-restoration" href="{{route('beverly-hills-floor-restoration.html')}}">Beverly Hills</a></dt>
               <dt>Bel Air</dt>
               <dt>West Hollywood</dt>
               <dt>West Los Angeles</dt>
-              <dt><a title="culver-city-tile-cleaning" href="{{route('culver-city-tile-cleaning')}}">Culver City</a></dt>
-              <dt><a title="santa-monica-floor-cleaning" href="{{route('santa-monica-floor-cleaning')}}">Santa Monica</a></dt>
+              <dt><a title="culver-city-tile-cleaning" href="{{route('culver-city-tile-cleaning.html')}}">Culver City</a></dt>
+              <dt><a title="santa-monica-floor-cleaning" href="{{route('santa-monica-floor-cleaning.html')}}">Santa Monica</a></dt>
               <dt>Pacific Palisades</dt>
               <dt>Marina Del Rey</dt>
-								<dt><a title="los-angeles-carpet-floor-care" href="{{route('los-angeles-carpet-floor-care')}}">Los Angeles</a></dt>
+								<dt><a title="los-angeles-carpet-floor-care" href="{{route('los-angeles-carpet-floor-care.html')}}">Los Angeles</a></dt>
 		    </ul>
 							
 							
@@ -513,12 +513,12 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
               <dt>Valley Village</dt>
               <dt>North Hollywood</dt>
               <dt>Hollywood Hills</dt>
-              <dt><a title="hollywood-floor-cleaning" href="{{route('hollywood-floor-cleaning')}}">Hollywood</a></dt>
+              <dt><a title="hollywood-floor-cleaning" href="{{route('hollywood-floor-cleaning.html')}}">Hollywood</a></dt>
               <dt>Los Feliz</dt>
               <dt>Silverlake</dt>
-              <dt><a title="carpet-cleaning-burbank" href="{{route('carpet-cleaning-burbank')}}">Burbank</a></dt>
-              <dt><a title="glendale-carpet-cleaning" href="glendale-{{route('carpet-cleaning')}}">Glendale</a></dt>
-								<dt><a title="pasadena-floor-cleaning" href="{{route('pasadena-floor-cleaning')}}">Pasadena</a></dt>
+              <dt><a title="carpet-cleaning-burbank" href="{{route('carpet-cleaning-burbank.html')}}">Burbank</a></dt>
+              <dt><a title="glendale-carpet-cleaning" href="glendale-{{route('carpet-cleaning.html')}}">Glendale</a></dt>
+								<dt><a title="pasadena-floor-cleaning" href="{{route('pasadena-floor-cleaning.html')}}">Pasadena</a></dt>
 		    </ul>
 							
 							
@@ -532,10 +532,10 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="about-box">
 							<div class="about-text">
 							<ul>
-             <dt><a title="northridge-floor-restoration" href="{{route('northridge-floor-restoration')}}">Northridge</a></dt>
-              <dt><a title="granada-hills-carpet-cleaning" href="{{route('granada-hills-carpet-cleaning')}}">Granada Hills</a></dt>
+             <dt><a title="northridge-floor-restoration" href="{{route('northridge-floor-restoration.html')}}">Northridge</a></dt>
+              <dt><a title="granada-hills-carpet-cleaning" href="{{route('granada-hills-carpet-cleaning.html')}}">Granada Hills</a></dt>
               <dt>North Hills</dt>
-              <dt><a title="porter-ranch-floor-restoration" href="{{route('porter-ranch-floor-restoration')}}">Porter Ranch</a></dt>
+              <dt><a title="porter-ranch-floor-restoration" href="{{route('porter-ranch-floor-restoration.html')}}">Porter Ranch</a></dt>
               <dt>Chatsworth</dt>
               <dt>Winnetka</dt>
               <dt>Canoga Park</dt>
@@ -662,10 +662,10 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a> <img alt="outdoor countertop restoration" src="{{ asset('theme/website/Image/Stone-Restoration/counter-top-restoration.jpg')}}" class="item-container" > </a>
 							<div class="link-zoom">
-								<a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 							
 								<div class="gallery-heading">
-									<h4><a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}">Stone Restoration</a></h4>
+									<h4><a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration</a></h4>
 
 								</div>
 							</div>
@@ -677,9 +677,9 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a> <img alt="repair and regrout of bathroom sink counter" src="{{ asset('theme/website/Image/Regrout/sink-counter-repair.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="regrouting" href="{{route('regrout')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="regrouting" href="{{route('regrout.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<div class="gallery-heading">
-									<h4><a title="tile-repair-grout-repair" href="{{route('regrout')}}">Regrouting and Repair</a></h4>
+									<h4><a title="tile-repair-grout-repair" href="{{route('regrout.html')}}">Regrouting and Repair</a></h4>
 								</div>
 							</div>
 
@@ -690,10 +690,10 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a> <img alt="carpet steam cleaning tarzana" src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-steam-cleaning-tarzana.jpg')}}" class="item-container" > </a>
 							<div class="link-zoom">
-								<a title="carpet-steam-cleaning-tarzana" href="{{route('carpet-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="carpet-steam-cleaning-tarzana" href="{{route('carpet-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								
 								<div class="gallery-heading">
-									<h4><a title="carpet-cleaning-encino" href="{{route('carpet-cleaning')}}">Carpet Steam Cleaning</a></h4>
+									<h4><a title="carpet-cleaning-encino" href="{{route('carpet-cleaning.html')}}">Carpet Steam Cleaning</a></h4>
 								</div>
 							</div>
 
@@ -704,10 +704,10 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a title="tile-and-grout-cleaning"> <img alt="ceramic wood-style tile cleaning steam cleaning" src="{{ asset('theme/website/Image/Tile-&-Grout/ceramic-tile-steam-cleaning.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="tile-and-grout-cleaning-studio-city" href="{{route('tile-and-grout-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="tile-and-grout-cleaning-studio-city" href="{{route('tile-and-grout-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								
 								<div class="gallery-heading">
-									<h4><a title="tile-and-grout-cleaning-culver-city" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a></h4>
+									<h4><a title="tile-and-grout-cleaning-culver-city" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a></h4>
 								</div>
 							</div>
 
@@ -718,10 +718,10 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a> <img alt="spanish tile cleaning and restoration" src="{{ asset('theme/website/Image/Spanish-Tile/spanish-tile-cleaning-and-restoration.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								
 								<div class="gallery-heading">
-									<h4><a title="natural-stone-restoration" href="{{route('stone-restoration-and-repair')}}">Spanish Tile Restoration</a></h4>
+									<h4><a title="natural-stone-restoration" href="{{route('stone-restoration-and-repair.html')}}">Spanish Tile Restoration</a></h4>
 								</div>
 							</div>
 
@@ -732,9 +732,9 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 						<div class="item-box">
 							<a> <img alt="recliner cleaning upholstery steam cleaning" src="{{ asset('theme/website/Image/Upholstery/recliner-upholstery-cleaning-encino-600.jpg')}}" class="item-container"> </a>
 							<div class="link-zoom">
-								<a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
+								<a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning.html')}}" class="project_links same_style"> <i class="fa fa-link"> </i> </a>
 								<div class="gallery-heading">
-									<h4><a title="upholstery-cleaning-santa-monica" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a></h4>
+									<h4><a title="upholstery-cleaning-santa-monica" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a></h4>
 								</div>
 							</div>
 
@@ -767,7 +767,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/male-250.jpg')}}" alt="Client from Los Angeles, carpet cleaning and stain removal" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Josh F. - Los Angeles, CA</div>
-							<p> They came out the same day.  Were very nice and had some good carpet cleaning tips. I spilled some red wine on a brand new area carpet and after trying to clean it myself decided...<a title="testimonial link-Josh" href="{{route('testimonials')}}">[Go On]</a></p>
+							<p> They came out the same day.  Were very nice and had some good carpet cleaning tips. I spilled some red wine on a brand new area carpet and after trying to clean it myself decided...<a title="testimonial link-Josh" href="{{route('testimonials.html')}}">[Go On]</a></p>
 						</div>
 					</div>
 
@@ -778,7 +778,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/female-250.jpg')}}" alt="Sherman Oaks Client, carpet cleaning and upholstery cleaning" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Michele S. - Sherman Oaks, CA</div>
-							<p> Jackie, Peter &amp; their crew at jp carpet cleaning are really wonderful. used them again this morning for a vacancy and the carpet came out beautifully. I also have to say - after dealing...<a title="testimonial link-Michelle" href="{{route('testimonials')}}" >[Keep Reading]</a> </p>
+							<p> Jackie, Peter &amp; their crew at jp carpet cleaning are really wonderful. used them again this morning for a vacancy and the carpet came out beautifully. I also have to say - after dealing...<a title="testimonial link-Michelle" href="{{route('testimonials.html')}}" >[Keep Reading]</a> </p>
 						</div>
 					</div>
 
@@ -789,7 +789,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/female-250.jpg')}}" alt="Van Nuys, Area Rug Cleaning and Repair" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Marsha M. - Van Nuys, CA</div>
-							<p> I cannot recommend JP carpet highly enough. Their professionalism, attention to detail, caring staff, and above all excellent service and work stand out! Peter and his staff will take good...<a title="testimonial link-Marsha" href="{{route('testimonials')}}">[Continue Reading]</a></p>
+							<p> I cannot recommend JP carpet highly enough. Their professionalism, attention to detail, caring staff, and above all excellent service and work stand out! Peter and his staff will take good...<a title="testimonial link-Marsha" href="{{route('testimonials.html')}}">[Continue Reading]</a></p>
 						</div>
 					</div>
 					
@@ -800,7 +800,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/male-250.jpg')}}" alt="Beverly Hills, carpet cleaning and wood floor cleaning client" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Silvester R. - Beverly Hills, CA</div>
-							<p> It was a great pleasure working with Peter and his skilled team of cleaners. Great rates, services, and results!! I was searching for a company to restore the original look of our dirty carpets...<a title="testimonial link-Silvester" href="{{route('testimonials')}}">[Continue]</a></p>
+							<p> It was a great pleasure working with Peter and his skilled team of cleaners. Great rates, services, and results!! I was searching for a company to restore the original look of our dirty carpets...<a title="testimonial link-Silvester" href="{{route('testimonials.html')}}">[Continue]</a></p>
 						</div>
 					</div>
 					
@@ -812,7 +812,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Alison A. - Marina Del Rey, CA</div>
 							<p> These folks did a great job on our bathroom tile grout, which was long overdue for attention. A good experience all the way around:
-                1. Peter responded quickly to my inquiry and...<a title="testimonial link-Alison" href="{{route('testimonials')}}">[Continue Reading]</a></p>
+                1. Peter responded quickly to my inquiry and...<a title="testimonial link-Alison" href="{{route('testimonials.html')}}">[Continue Reading]</a></p>
 						</div>
 					</div>
 					
@@ -823,7 +823,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/male-250.jpg')}}" alt="Hollywood home, carpet cleaning and stain treatment" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Jack R. - Hollywood, CA</div>
-							<p> I just want to tell that we were so pleased with JP carpet cleaning floor care expert services which have exceeded our expectations. Cleaners arrived on time, they were professional...<a title="testimonial link-Jack" href="{{route('testimonials')}}" >[Show More]</a></p>
+							<p> I just want to tell that we were so pleased with JP carpet cleaning floor care expert services which have exceeded our expectations. Cleaners arrived on time, they were professional...<a title="testimonial link-Jack" href="{{route('testimonials.html')}}" >[Show More]</a></p>
 						</div>
 					</div>
 					
@@ -834,7 +834,7 @@ Thinking of having your floors professionally cleaned? Let us know if you have a
 								<img src="{{ asset('theme/website/Image/clients/female-250.jpg')}}" alt="Encino customer, hardwood floor refinishing and carpet cleaning" />
 							</div>
 							<div style="font-size: 20px; line-height: 1.5; font-weight: 600">Leslee G. - Encino, CA</div>
-							<p> Just had my carpets cleaned by Jackie and her crew again. I've used their service for several years and am always happy with their work and the fair pricing. I've also had them refinish hardwood floors...<a title="testimonial link-Leslee" href="{{route('testimonials')}}">[Tell Me More]</a></p>
+							<p> Just had my carpets cleaned by Jackie and her crew again. I've used their service for several years and am always happy with their work and the fair pricing. I've also had them refinish hardwood floors...<a title="testimonial link-Leslee" href="{{route('testimonials.html')}}">[Tell Me More]</a></p>
 						</div>
 					</div>
 

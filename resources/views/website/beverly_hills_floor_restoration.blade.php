@@ -105,7 +105,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a title="beverly-hills-carpet-cleaning"> <img alt="beverly-hills-carpet-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/beverly-hills-carpet-cleaning.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="beverly-hills-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/beverly-hills-carpet-cleaning.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-				<h4><a title="beverly-hills-carpet-cleaning" href="{{route('carpet-cleaning')}}">Beverly Hills Carpet Cleaning</a></h4>		
+				<h4><a title="beverly-hills-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Beverly Hills Carpet Cleaning</a></h4>		
               
 
             </div>
@@ -130,7 +130,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a title="beverly-hills-stone-restoration"> <img alt="beverly-hills-stone-restoration" src="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills-small.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="beverly-hills-stone-restoration" href="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="beverly-hills-stone-restoration" href="{{route('stone-restoration-and-repair')}}">Beverly Hills Marble Polishing</a></h4>
+              <h4><a title="beverly-hills-stone-restoration" href="{{route('stone-restoration-and-repair.html')}}">Beverly Hills Marble Polishing</a></h4>
             </div>
         </div>
 		  </div>
@@ -193,7 +193,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <div class="item-box"> <a title="wood-floor-cleaning-beverly-hills"><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-Beverly-Hills"/> </a>
                     <div class="link-zoom"> <a title="wood-floor-cleaning-beverly-hills" href="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="wood-floor-cleaning-beverly-hills" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning Beverly Hills</a></h4>
+						  <h4><a title="wood-floor-cleaning-beverly-hills" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning Beverly Hills</a></h4>
                       </div>
                     </div>
                   </div>

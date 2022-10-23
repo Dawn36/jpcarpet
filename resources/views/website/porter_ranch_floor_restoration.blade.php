@@ -104,7 +104,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="porter-ranch-carpet-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="porter-ranch-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-				<h4><a title="porter-ranch-carpet-cleaning" href="{{route('carpet-cleaning')}}">Porter Ranch Carpet Cleaning</a></h4>		
+				<h4><a title="porter-ranch-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Porter Ranch Carpet Cleaning</a></h4>		
               
 
             </div>
@@ -129,7 +129,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="porter-ranch-marble-polishing" src="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills-small.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="porter-ranch-marble-polishing" href="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="porter-ranch-marble-polishing" href="{{route('stone-restoration-and-repair')}}">Porter Ranch Marble Polishing</a></h4>
+              <h4><a title="porter-ranch-marble-polishing" href="{{route('stone-restoration-and-repair.html')}}">Porter Ranch Marble Polishing</a></h4>
             </div>
         </div>
 		  </div>
@@ -192,7 +192,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <div class="item-box"> <a><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-Porter-Ranch"/> </a>
                     <div class="link-zoom"> <a title="Hardwood-Floor-Cleaning-Porter-Ranch" href="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="Hardwood-Floor-Cleaning-Porter-Ranch" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning Porter Ranch</a></h4>
+						  <h4><a title="Hardwood-Floor-Cleaning-Porter-Ranch" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning Porter Ranch</a></h4>
                       </div>
                     </div>
                   </div>

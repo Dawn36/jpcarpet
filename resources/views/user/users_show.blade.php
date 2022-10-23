@@ -189,7 +189,7 @@
                                                     <tr>
                                                         <td>{{$a}}</td>
                                                         <td>
-                                                            <a href="{{route('blog.show',$blog[$i]->id)}}" class="fw-bolder text-hover-primary">{{ucwords($blog[$i]->blog_name)}}</a>
+                                                            <a href="{{route('blogs.show',$blog[$i]->id)}}" class="fw-bolder text-hover-primary">{{ucwords($blog[$i]->blog_name)}}</a>
                                                         </td>
                                                        
                                                         <td>{{ucwords($blog[$i]->name)}}</td>
@@ -223,7 +223,7 @@
                                                                     </svg>
                                                                 </span>
                                                             </button>
-                                                            <form  style="display: inline-block" method="POST" action="{{ route('blog.destroy', $blog[$i]->id) }}">
+                                                            <form  style="display: inline-block" method="POST" action="{{ route('blogs.destroy', $blog[$i]->id) }}">
                                                                 @method('DELETE')
                                                                 @csrf
                                                             <button class="btn btn-icon btn-sm btn-color-gray-400 btn-active-icon-danger me-2" type="submit" data-bs-toggle="tooltip" data-bs-original-title="Delete Blog">
@@ -275,7 +275,7 @@
         });
     }
     function editblog(id) {
-        url = "{{ route('blog.edit', ':id') }}";
+        url = "{{ route('blogs.edit', ':id') }}";
         url = url.replace(':id', id);
         $.ajax({
             type: 'GET',

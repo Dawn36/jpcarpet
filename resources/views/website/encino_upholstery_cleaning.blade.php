@@ -97,7 +97,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
     <div class="row">
       <div class="col-md-6 ptb-15">
           <div class="block-title v-line mb-35">
-			  <a title="carpet-cleaning-encino" href="{{route('carpet-cleaning')}}"><h3><strong>Carpet Cleaning Encino</strong></h3></a>
+			  <a title="carpet-cleaning-encino" href="{{route('carpet-cleaning.html')}}"><h3><strong>Carpet Cleaning Encino</strong></h3></a>
 	    </div>
 			  <p>Everyone wants the carpet in their house to be clean and tidy not only for aesthetic reasons but also for many health-related reasons. Carpet in general, regardless of its fiber should receive regular deep carpet cleaning to maintain its look and keep it in a well maintained condition.</p>
 		  <div class="nf-item spacing-box">
@@ -110,7 +110,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 JP Carpet Cleaning Expert Floor Care can take total care of all your domestic as well as commercial carpet cleaning needs. With us, you will experience our fast, reliable, efficient, and affordable services. We can deal with any situation that may arise and we also offer same day service. Our trained and professional crews are ready to serve you at your home as well as your business. We also offer 24/7 emergency services for water damage restoration in Encino.
       </p>
       <p>
-JP Carpet Cleaning Expert Floor Care uses the latest in modern carpet cleaning equipment and product technology. JP Carpet Cleaning Expert Floor Care ensures the desired results. Our high-tech and portable equipment are enough to cover all your carpet cleaning issues. We provide <a title="carpet-cleaning-encino" href="{{route('carpet-cleaning')}}">carpet cleaning Encino</a>.</p>
+JP Carpet Cleaning Expert Floor Care uses the latest in modern carpet cleaning equipment and product technology. JP Carpet Cleaning Expert Floor Care ensures the desired results. Our high-tech and portable equipment are enough to cover all your carpet cleaning issues. We provide <a title="carpet-cleaning-encino" href="{{route('carpet-cleaning.html')}}">carpet cleaning Encino</a>.</p>
 
        
 		 
@@ -126,11 +126,11 @@ JP Carpet Cleaning Expert Floor Care uses the latest in modern carpet cleaning e
 <p>Our cleaners can deal with any type of stain on upholstered furniture and they use steam cleaning, which is considered the best cleaning technique. Steam cleaning is called hot water extraction. Our cleaners ensure that they use a suitable cleaning solution for your home.
            </p>
            <p>
-       JP Carpet Cleaning Expert Floor Care provides the finest <a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning')}}">upholstery cleaning service in Encino</a>. Our special upholstery cleaning team utilizes the best methods and equipment to reach each corner of the upholstery to get the best outcome. We also have unique cleaning solutions for your upholstery that are designed to refresh your fabrics. JP Carpet Cleaning Expert Floor Care makes sure not only to clean the upholstery but also to add luster and glow as well. We will make your couch shine just like new again.</p>
+       JP Carpet Cleaning Expert Floor Care provides the finest <a title="upholstery-cleaning-encino" href="{{route('upholstery-cleaning.html')}}">upholstery cleaning service in Encino</a>. Our special upholstery cleaning team utilizes the best methods and equipment to reach each corner of the upholstery to get the best outcome. We also have unique cleaning solutions for your upholstery that are designed to refresh your fabrics. JP Carpet Cleaning Expert Floor Care makes sure not only to clean the upholstery but also to add luster and glow as well. We will make your couch shine just like new again.</p>
 			  
           <div class="block-title v-line mb-35">
 			  <h3><strong>Tile and Grout Cleaning Encino</strong></h3></div>
-<p>Do you need help with a hard floor surface? <a title="contact-jp-carpet-cleaning-local-services" href="{{route('contact')}}">Call JP Carpet Cleaning Expert Floor Care</a> and get the best tips for tile and grout cleaning. 
+<p>Do you need help with a hard floor surface? <a title="contact-jp-carpet-cleaning-local-services" href="{{route('contact.html')}}">Call JP Carpet Cleaning Expert Floor Care</a> and get the best tips for tile and grout cleaning. 
   </p>
   <p>
   JP Carpet Cleaning Expert Floor Care is the ideal way to make your home sparkle. We provide tile and grout cleaning as well as repair for both commercial and residential areas. We are trained to deal with all type of issues related to tile and grout. Besides that, we can clean your all tiled surfaces such as kitchens, bathrooms, pool surroundings and many more. 
@@ -142,12 +142,12 @@ JP Carpet Cleaning Expert Floor Care uses the latest in modern carpet cleaning e
         <div class="item-box"> <a> <img alt="encino-tile-and-grout-cleaning" src="{{ asset('theme/website/Image/Tile-&-Grout/Tile-cleaning-valley-glen.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="tile-and-grout-cleaning-encino" href="{{ asset('theme/website/Image/Tile-&-Grout/Tile-cleaning-valley-glen.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning')}}">Encino Tile and Grout Cleaning</a></h4>
+              <h4><a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning.html')}}">Encino Tile and Grout Cleaning</a></h4>
             </div>
         </div>
 		  </div>
 		  </div>
-		  <p>If you need assistance or advice from JP Carpet Cleaning Expert Floor Care professionals, then contact us. Our experts and professional team will help you out with the best possible solution regarding tile and grout. JP Carpet Cleaning Expert Floor Care is serving <a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning')}}">tile and grout cleaning in Encino</a> for years and we are recommended as best tile and grout cleaners in Encino and nearby areas. The only motto we have is to provide the best result in affordable rates. <a title="jp-carpet-cleaning-local-services" href="{{route('contact')}}">Fill out our inquiry form</a> to know more about our offers and enjoy the best tile and grout cleaning in Encino.</p>
+		  <p>If you need assistance or advice from JP Carpet Cleaning Expert Floor Care professionals, then contact us. Our experts and professional team will help you out with the best possible solution regarding tile and grout. JP Carpet Cleaning Expert Floor Care is serving <a title="tile-and-grout-cleaning-encino" href="{{route('tile-and-grout-cleaning.html')}}">tile and grout cleaning in Encino</a> for years and we are recommended as best tile and grout cleaners in Encino and nearby areas. The only motto we have is to provide the best result in affordable rates. <a title="jp-carpet-cleaning-local-services" href="{{route('contact.html')}}">Fill out our inquiry form</a> to know more about our offers and enjoy the best tile and grout cleaning in Encino.</p>
         
 		 
           <div class="block-title v-line mb-35">
@@ -158,7 +158,7 @@ JP Carpet Cleaning Expert Floor Care uses the latest in modern carpet cleaning e
   </p>
   
   <p>
-<a title="contact-local-jp-carpet-cleaning" href="{{route('contact')}}">Contact JP Carpet Cleaning Expert Floor Care</a> at <a title="jp-carpet-cleaning-phon" href="tel:+18182639314">818-263-9314</a> to enjoy our most affordable services with best cleaning result.
+<a title="contact-local-jp-carpet-cleaning" href="{{route('contact.html')}}">Contact JP Carpet Cleaning Expert Floor Care</a> at <a title="jp-carpet-cleaning-phon" href="tel:+18182639314">818-263-9314</a> to enjoy our most affordable services with best cleaning result.
   </p>
 			   
 
@@ -210,7 +210,7 @@ For the best rug cleaning service in Encino, the ideal team is JP Carpet Cleanin
 
 
 <p>
-Once the expert reaches your home, you don’t need to worry. Experts at JP Carpet Cleaning Expert Floor Care have enough knowledge and can deliver high-quality <a title="encino-water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration Services across Encino</a>.</p>
+Once the expert reaches your home, you don’t need to worry. Experts at JP Carpet Cleaning Expert Floor Care have enough knowledge and can deliver high-quality <a title="encino-water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration Services across Encino</a>.</p>
               </div>
               </div>
             </div>
@@ -226,7 +226,7 @@ Once the expert reaches your home, you don’t need to worry. Experts at JP Carp
 <div class="item-box"> <a><img src="{{ asset('theme/website/Image/Wood-Flooring/encino-wood-floor-cleaning.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-Encino"/> </a>
                     <div class="link-zoom"> <a title="Hardwood-Floor-refinishing-Encino" href="{{ asset('theme/website/Image/Wood-Flooring/encino-wood-floor-cleaning.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="Hardwood-Floor-installation-Encino" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning Encino</a></h4>
+						  <h4><a title="Hardwood-Floor-installation-Encino" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning Encino</a></h4>
                       </div>
                     </div>
                   </div>
@@ -234,7 +234,7 @@ Once the expert reaches your home, you don’t need to worry. Experts at JP Carp
 JP Carpet Cleaning Expert Floor Care provides a great cleaning service for buildings, offices, and walkways. Frequent cleaning of entrance and walkways is really a great idea to maintain the area as well as to keep it hygienic for employees and customers. Having a clean building floor and removing the debris will make your business look professional and inviting. A clean walkway also keeps the interior cleaner by keeping the clients and employees from tracking in grit that can possibly soil your carpet.</p>
                   <ul>
                   <li>Cleaning becomes easy even on the hardest floor if you have a right set of tools. There many machines available in the market for cleaning residential tiles to warehouse concrete floors. If required we can provide service using this machine to get quick and desired results. </li>
-                  <li>JP Carpet Cleaning Expert Floor Care uses the most versatile floor cleaning machines. These machines are capable to blast on the hard floor to clean the toughest stains on it. If you have a wooden floor, these machines can be used to ensure that your floor becomes free from scratches. We provide the <a title="Hardwood-Floor-refinishing-Encino" href="{{route('wood-floor-cleaning')}}">best hardwood floor cleaning in Encino</a> and nearby areas.</li>
+                  <li>JP Carpet Cleaning Expert Floor Care uses the most versatile floor cleaning machines. These machines are capable to blast on the hard floor to clean the toughest stains on it. If you have a wooden floor, these machines can be used to ensure that your floor becomes free from scratches. We provide the <a title="Hardwood-Floor-refinishing-Encino" href="{{route('wood-floor-cleaning.html')}}">best hardwood floor cleaning in Encino</a> and nearby areas.</li>
                   </ul>
                   
 

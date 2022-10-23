@@ -165,7 +165,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                     <li>Identify the damage and restore with the help of latest types of equipment and trained experts.  </li>
                     <li>We use Eco-friendly product which is useful for enhancing stone color and gives you a best and hygienic cleaning result.</li>
                   </ul>
-<p>So, all you need is to <a title="Contact-us-about-your-stone-restoration-in-burbank" href="{{route('contact')}}">contact JP Carpet Cleaning Expert Floor Care</a> to have a high-quality stone restoration services in Burbank through well trained and trustable cleaning staff.</p>
+<p>So, all you need is to <a title="Contact-us-about-your-stone-restoration-in-burbank" href="{{route('contact.html')}}">contact JP Carpet Cleaning Expert Floor Care</a> to have a high-quality stone restoration services in Burbank through well trained and trustable cleaning staff.</p>
               </div>
               </div>
             </div>
@@ -205,7 +205,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
                   <li>Regular Vacuuming: You should regularly vacuum your wooden floor with a soft brush attachment. Hence, it would help to keep your floor looking great on day to day basis.</li>
                   </ul>
 
-<p>Even after applied these two tips your wooden floor needs thorough cleaning once in a year for which you need to hire professionals like JP Carpet Cleaning Expert Floor Care experts who can deliver best <a title="wood-floor-cleaning-burbank" href="{{route('wood-floor-cleaning')}}">Wood Floor Cleaning across Burbank</a>.</p>
+<p>Even after applied these two tips your wooden floor needs thorough cleaning once in a year for which you need to hire professionals like JP Carpet Cleaning Expert Floor Care experts who can deliver best <a title="wood-floor-cleaning-burbank" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Cleaning across Burbank</a>.</p>
               </div>
             </div>
           </div>
@@ -219,7 +219,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
             <div class="card-block">
               <div class="row">
                   <p><p>Flooded water needs to get remove from home or office immediately whether it is from a pipe break, flood or line break. So, in this situation, immediate action is required to prevent water from damaging. Hence, dealing with water removal by own will not be going to work because you don’t have the required equipment’s. </p>
-                  <p>Besides that, sometimes water damage requires a complex cleaning process which you cannot handle my own, hence same may require some professional types of equipment and knowledge. So, what will you do now?</p><p>Therefore, the answer is by <a title="jp-carpet-cleaning-local-business" href="{{route('contact')}}">calling professionals</a> like JP Carpet Cleaning Expert Floor Care who offers the best Water Damage Restoration Services in Burbank.</p>
+                  <p>Besides that, sometimes water damage requires a complex cleaning process which you cannot handle my own, hence same may require some professional types of equipment and knowledge. So, what will you do now?</p><p>Therefore, the answer is by <a title="jp-carpet-cleaning-local-business" href="{{route('contact.html')}}">calling professionals</a> like JP Carpet Cleaning Expert Floor Care who offers the best Water Damage Restoration Services in Burbank.</p>
 
 <p>
 Here are some tips about what to do when water damage occurs. </p>

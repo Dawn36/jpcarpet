@@ -213,7 +213,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 									<li>
 										<div class="icon ion-ios-location"></div>
 										<div class="content">
-											<p class="align-items-center"><a title="our-service-areas" href="{{route('service-areas')}}"> Our Service Areas</a></p>
+											<p class="align-items-center"><a title="our-service-areas" href="{{route('service-areas.html')}}"> Our Service Areas</a></p>
 										
 										</div>
 									</li>

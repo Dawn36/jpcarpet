@@ -101,7 +101,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="northridge-carpet-cleaning" src="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a title="northridge-carpet-cleaning" href="{{ asset('theme/website/Image/Carpet-Cleaning/studio-city-carpet-cleaning-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-				<h4><a title="northridge-carpet-cleaning" href="{{route('carpet-cleaning')}}">Northridge Carpet Cleaning</a></h4>		
+				<h4><a title="northridge-carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Northridge Carpet Cleaning</a></h4>		
               
 
             </div>
@@ -126,7 +126,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
         <div class="item-box"> <a> <img alt="northridge-stone-restoration" src="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills-small.jpg')}}" class="item-container"> </a>
           <div class="link-zoom"> <a href="{{ asset('theme/website/Image/Stone-Restoration/Marble-polishing-and-restoration-hollywood-hills.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light" > <i class="fa fa-search-plus"></i> </a>
             <div class="gallery-heading">
-              <h4><a title="northridge-stone-restoration" href="{{route('stone-restoration-and-repair')}}">Northridge Marble Polishing</a></h4>
+              <h4><a title="northridge-stone-restoration" href="{{route('stone-restoration-and-repair.html')}}">Northridge Marble Polishing</a></h4>
             </div>
         </div>
 		  </div>
@@ -189,7 +189,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 <div class="item-box"> <a><img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills.jpg')}}" class="img-fluid item-container" alt="Hardwood-Floor-Cleaning-Northridge"/> </a>
                     <div class="link-zoom"> <a title="Hardwood-Floor-Cleaning-Northridge" href="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-cleaning-beverly-hills-600.jpg')}}" class="fancylight popup-btn same_style" data-fancybox-group="light"> <i class="fa fa-search-plus"></i></a>
                       <div class="gallery-heading">
-						  <h4><a title="Hardwood-Floor-Cleaning-Northridge" href="{{route('wood-floor-cleaning')}}">Hardwood Floor Cleaning Northridge</a></h4>
+						  <h4><a title="Hardwood-Floor-Cleaning-Northridge" href="{{route('wood-floor-cleaning.html')}}">Hardwood Floor Cleaning Northridge</a></h4>
                       </div>
                     </div>
                   </div>

@@ -25,15 +25,15 @@ Route::get('/', function () {
 });
 
 Route::resource('contact_us', ContactUsController::class);
-Route::Get('blogs', [WebsiteController::class, 'index'])->name('blogs');
-Route::Get('blogs-detail/{id}', [WebsiteController::class, 'blogDetails'])->name('blogs-detail');
+Route::Get('blog.html', [WebsiteController::class, 'index'])->name('blog.html');
+Route::Get('blogs-detail/{name}', [WebsiteController::class, 'blogDetails'])->name('blogs-detail');
 
 Route::middleware(['auth'])->group(function () {
 Route::Get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 
 Route::resource('categories', CategoriesController::class);
 Route::resource('user', UserController::class);
-Route::resource('blog', BlogController::class);
+Route::resource('blogs', BlogController::class);
 Route::Get('blog_accept/{id}', [BlogController::class, 'blogAccept'])->name('blog_accept');
 Route::Get('blog_reject/{id}', [BlogController::class, 'blogReject'])->name('blog_reject');
 Route::Get('blog_pending', [BlogController::class, 'blogPending'])->name('blog_pending');
@@ -43,137 +43,135 @@ Route::post('/settings/{id}/updateEmail', [SettingsController::class, 'updateEma
 Route::post('/settings/{id}/updatePassword', [SettingsController::class, 'updatePassword'])->name('updatePassword');
 });
 
-// Route::get('/dashboard', function () {
-//     return view('dashboard');
-// })->middleware(['auth'])->name('dashboard');
 
 
-Route::get('regrout', function () {
+Route::get('regrout.html', function () {
     return view('website/regrout');
-})->name('regrout');
-Route::get('tile-and-grout-cleaning', function () {
+})->name('regrout.html');
+
+Route::get('tile-and-grout-cleaning.html', function () {
     return view('website/tile_and_grout_cleaning');
-})->name('tile-and-grout-cleaning');
+})->name('tile-and-grout-cleaning.html');
 
-Route::get('carpet-cleaning', function () {
+Route::get('carpet-cleaning.html', function () {
     return view('website/carpet_cleaning');
-})->name('carpet-cleaning');
+})->name('carpet-cleaning.html');
 
-Route::get('upholstery-cleaning', function () {
+Route::get('upholstery-cleaning.html', function () {
     return view('website/upholstery_cleaning');
-})->name('upholstery-cleaning');
+})->name('upholstery-cleaning.html');
 
-Route::get('area-rug-cleaning', function () {
+Route::get('area-rug-cleaning.html', function () {
     return view('website/area_rug_cleaning');
-})->name('area-rug-cleaning');
+})->name('area-rug-cleaning.html');
 
-Route::get('stone-restoration-and-repair', function () {
+Route::get('stone-restoration-and-repair.html', function () {
     return view('website/stone_restoration_and_repair');
-})->name('stone-restoration-and-repair');
+})->name('stone-restoration-and-repair.html');
 
-Route::get('wood-floor-cleaning', function () {
+Route::get('wood-floor-cleaning.html', function () {
     return view('website/wood_floor_cleaning');
-})->name('wood-floor-cleaning');
+})->name('wood-floor-cleaning.html');
 
-Route::get('water-damage-restoration', function () {
+Route::get('water-damage-restoration.html', function () {
     return view('website/water_damage_restoration');
-})->name('water-damage-restoration');
+})->name('water-damage-restoration.html');
 
-Route::get('floor-maintenance-services', function () {
+Route::get('floor-maintenance-services.html', function () {
     return view('website/floor_maintenance_services');
-})->name('floor-maintenance-services');
+})->name('floor-maintenance-services.html');
 
-Route::get('encino-upholstery-cleaning', function () {
+Route::get('encino-upholstery-cleaning.html', function () {
     return view('website/encino_upholstery_cleaning');
-})->name('encino-upholstery-cleaning');
+})->name('encino-upholstery-cleaning.html');
 
-Route::get('carpet-cleaning-studio-city', function () {
+Route::get('carpet-cleaning-studio-city.html', function () {
     return view('website/carpet_cleaning_studio_city');
-})->name('carpet-cleaning-studio-city');
+})->name('carpet-cleaning-studio-city.html');
 
-Route::get('woodland-hills-carpet-cleaning', function () {
+Route::get('woodland-hills-carpet-cleaning.html', function () {
     return view('website/woodland_hills_carpet_cleaning');
-})->name('woodland-hills-carpet-cleaning');
+})->name('woodland-hills-carpet-cleaning.html');
 
-Route::get('brentwood-area-rug-cleaning', function () {
+Route::get('brentwood-area-rug-cleaning.html', function () {
     return view('website/brentwood_area_rug_cleaning');
-})->name('brentwood-area-rug-cleaning');
+})->name('brentwood-area-rug-cleaning.html');
 
-Route::get('beverly-hills-floor-restoration', function () {
+Route::get('beverly-hills-floor-restoration.html', function () {
     return view('website/beverly_hills_floor_restoration');
-})->name('beverly-hills-floor-restoration');
+})->name('beverly-hills-floor-restoration.html');
 
-Route::get('culver-city-tile-cleaning', function () {
+Route::get('culver-city-tile-cleaning.html', function () {
     return view('website/culver_city_tile_cleaning');
-})->name('culver-city-tile-cleaning');
+})->name('culver-city-tile-cleaning.html');
 
-Route::get('santa-monica-floor-cleaning', function () {
+Route::get('santa-monica-floor-cleaning.html', function () {
     return view('website/santa_monica_floor_cleaning');
-})->name('santa-monica-floor-cleaning');
+})->name('santa-monica-floor-cleaning.html');
 
-Route::get('los-angeles-carpet-floor-care', function () {
+Route::get('los-angeles-carpet-floor-care.html', function () {
     return view('website/los_angeles_carpet_floor_care');
-})->name('los-angeles-carpet-floor-care');
+})->name('los-angeles-carpet-floor-care.html');
 
-Route::get('hollywood-floor-cleaning', function () {
+Route::get('hollywood-floor-cleaning.html', function () {
     return view('website/hollywood_floor_cleaning');
-})->name('hollywood-floor-cleaning');
+})->name('hollywood-floor-cleaning.html');
 
-Route::get('carpet-cleaning-burbank', function () {
+Route::get('carpet-cleaning-burbank.html', function () {
     return view('website/carpet_cleaning_burbank');
-})->name('carpet-cleaning-burbank');
+})->name('carpet-cleaning-burbank.html');
 
-Route::get('glendale-carpet-cleaning', function () {
+Route::get('glendale-carpet-cleaning.html', function () {
     return view('website/glendale_carpet_cleaning');
-})->name('glendale-carpet-cleaning');
+})->name('glendale-carpet-cleaning.html');
 
-Route::get('pasadena-floor-cleaning', function () {
+Route::get('pasadena-floor-cleaning.html', function () {
     return view('website/pasadena_floor_cleaning');
-})->name('pasadena-floor-cleaning');
+})->name('pasadena-floor-cleaning.html');
 
-Route::get('northridge-floor-restoration', function () {
+Route::get('northridge-floor-restoration.html', function () {
     return view('website/northridge_floor_restoration');
-})->name('northridge-floor-restoration');
+})->name('northridge-floor-restoration.html');
 
-Route::get('granada-hills-carpet-cleaning', function () {
+Route::get('granada-hills-carpet-cleaning.html', function () {
     return view('website/granada_hills_carpet_cleaning');
-})->name('granada-hills-carpet-cleaning');
+})->name('granada-hills-carpet-cleaning.html');
 
-Route::get('porter-ranch-floor-restoration', function () {
+Route::get('porter-ranch-floor-restoration.html', function () {
     return view('website/porter_ranch_floor_restoration');
-})->name('porter-ranch-floor-restoration');
+})->name('porter-ranch-floor-restoration.html');
 
-Route::get('testimonials', function () {
+Route::get('testimonials.html', function () {
     return view('website/testimonials');
-})->name('testimonials');
+})->name('testimonials.html');
 
-Route::get('about', function () {
+Route::get('about.html', function () {
     return view('website/about');
-})->name('about');
+})->name('about.html');
 
-Route::get('contact', function () {
+Route::get('contact.html', function () {
     return view('website/contact');
-})->name('contact');
+})->name('contact.html');
 
-Route::get('service-areas', function () {
+Route::get('service-areas.html', function () {
     return view('website/service_areas');
-})->name('service-areas');
+})->name('service-areas.html');
 
-Route::get('faq', function () {
+Route::get('faq.html', function () {
     return view('website/faq');
-})->name('faq');
+})->name('faq.html');
 
-Route::get('services', function () {
+Route::get('services.html', function () {
     return view('website/services');
-})->name('services');
+})->name('services.html');
 
-Route::get('specials', function () {
+Route::get('specials.html', function () {
     return view('website/specials');
-})->name('specials');
+})->name('specials.html');
 
-Route::get('gallery', function () {
+Route::get('gallery.html', function () {
     return view('website/gallery');
-})->name('gallery');
+})->name('gallery.html');
 
 
 

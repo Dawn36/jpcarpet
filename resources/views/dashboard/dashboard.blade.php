@@ -38,7 +38,7 @@
                         <!--begin::Card-->
                         <div class="card card-stretch">
                             <!--begin::Link-->
-                            <a href="{{route('blog.index')}}" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
+                            <a href="{{route('blogs.index')}}" class="btn btn-flex btn-text-gray-800 btn-icon-gray-400 btn-active-color-primary bg-body flex-column justfiy-content-start align-items-start text-start w-100 p-10">
                                 <!--begin::Svg Icon | path: icons/duotune/technology/teh008.svg-->
                                 <span class="svg-icon svg-icon-3x mb-5">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

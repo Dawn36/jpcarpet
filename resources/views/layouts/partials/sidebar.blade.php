@@ -90,7 +90,7 @@
                     </div>
                 </div>
 
-                <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item {{  Route::currentRouteName() == 'blog.index' || Route::currentRouteName() == 'blog.show' || Route::currentRouteName() == 'blog_pending'  ? 'here' : '' }} py-3">
+                <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item {{  Route::currentRouteName() == 'blogs.index' || Route::currentRouteName() == 'blogs.show' || Route::currentRouteName() == 'blog_pending'  ? 'here' : '' }} py-3">
                     <span class="menu-link" title="Blogs" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
                         <span class="menu-icon">
                             <!--begin::Svg Icon | path: icons/duotune/ecommerce/ecm007.svg-->
@@ -105,7 +105,7 @@
                     </span>
                     <div class="menu-sub menu-sub-dropdown w-225px w-lg-275px px-1 py-4">
                         <div class="menu-item">
-                            <a class="menu-link {{  Route::currentRouteName() == 'blog.index' || Route::currentRouteName() == 'blog.show'  ? 'active' : '' }}" href="{{ route('blog.index') }}">
+                            <a class="menu-link {{  Route::currentRouteName() == 'blogs.index' || Route::currentRouteName() == 'blogs.show'  ? 'active' : '' }}" href="{{ route('blogs.index') }}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>

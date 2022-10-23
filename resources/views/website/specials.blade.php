@@ -200,21 +200,21 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 					<div class="col-lg-2.5 link_footer">
 						<h4>Our Services</h4>
 						<ul>
-							 <li> <a title="carpet-cleaning"  href="{{route('carpet-cleaning')}}">Carpet Cleaning</a> </li>
-        				     <li> <a title="area-rug-cleaning" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a> </li>
-              				 <li> <a title="upholstery-cleaning" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a> </li>
-              				 <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a> </li>
-              				 <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}">Stone Restoration and Repair</a> </li>
+							 <li> <a title="carpet-cleaning"  href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a> </li>
+        				     <li> <a title="area-rug-cleaning" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a> </li>
+              				 <li> <a title="upholstery-cleaning" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a> </li>
+              				 <li> <a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a> </li>
+              				 <li> <a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration and Repair</a> </li>
 						</ul>
 					</div>
 
 					<div class="col-lg-2.5 link_footer">
 						<div class="pt-5"></div>
 						<ul>
-							  <li> <a title="regrouting-service" href="{{route('regrout')}}">Regrouting</a> </li>
-              <li> <a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning')}}">Wood Floor Cleaning</a> </li>
-              <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a> </li>
-              <li> <a title="floor-maintenance-services" href="{{route('floor-maintenance-services')}}">Floor Maintenance Services</a> </li>
+							  <li> <a title="regrouting-service" href="{{route('regrout.html')}}">Regrouting</a> </li>
+              <li> <a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Cleaning</a> </li>
+              <li> <a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a> </li>
+              <li> <a title="floor-maintenance-services" href="{{route('floor-maintenance-services.html')}}">Floor Maintenance Services</a> </li>
              
 						</ul>
 					</div>
@@ -224,7 +224,7 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 						<ul>
               <li><a title="jp-carpet-cleaning-phone" href="tel:+18182639314"><i class="fa fa-phone"></i> Call Us +1 (818) 263 9314 </a></li>
 			  <li><a title="mail-to-jp-carpet-and-floor-care" href="mailto:info@jpfloorcare.com"><i class="fa fa-envelope-o"></i> info&#64;jpfloorcare.com</a></li>
-			  <li><a title="our-service-areas" href="{{route('service-areas')}}" rel="nofollow"><i class="fa fa-map-marker"></i> Our Service Areas</a></li>
+			  <li><a title="our-service-areas" href="{{route('service-areas.html')}}" rel="nofollow"><i class="fa fa-map-marker"></i> Our Service Areas</a></li>
 		  	  <li><a title="our-business-hours" href="#"> <i class="fa fa-clock-o"></i> Monday-Saturday, 7am-6pm;<br>Sunday Closed; Phone Always Open</a></li>
 						</ul>
 					</div>

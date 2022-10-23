@@ -112,14 +112,17 @@ script.src = target;var elem = document.head;elem.appendChild(script);
 			  @for($i=0; $i < count($blog); $i++)
 			  <div class="blog-post mb-30">
               <div class="post-media"> <img src="{{ asset($blog[$i]->blog_thumbnail)}}" alt="{{$blog[$i]->alt_tag}}"><div class="event-calender blog-date">{{DATE("j M",strtotime($blog[$i]->created_at))}}</div> </div>
-					<div class="post-meta"> <span>by </span><a href="{{route('about')}}">{{ucwords($blog[$i]->first_name)}} {{ucwords($blog[$i]->last_name)}}</a>              </div>
+					<div class="post-meta"> <span>by </span><a href="{{route('about.html')}}">{{ucwords($blog[$i]->first_name)}} {{ucwords($blog[$i]->last_name)}}</a>              </div>
               <div class="post-header">
-                <h2><a href="{{route('blogs-detail',$blog[$i]->id)}}">{{ucwords($blog[$i]->blog_name)}}</a></h2>
+                @php 
+                $slug=Str::slug($blog[$i]->blog_name, '-');
+                @endphp
+                <h2><a href="{{route('blogs-detail', $slug)}}">{{ucwords($blog[$i]->blog_name)}}</a></h2>
               </div>
               <div class="post-entry">
                 <p>@php echo substr(ucfirst(html_entity_decode($blog[$i]->description)), 0, 100).'...'@endphp </p>
               </div>
-              <div class="post-more-link pull-left"> <a href="{{route('blogs-detail',$blog[$i]->id)}}"
+              <div class="post-more-link pull-left"> <a href="{{route('blogs-detail',$slug)}}"
 														class="btn-text">Keep Reading</a> </div>
 			</div>
 			   <hr />
@@ -141,50 +144,50 @@ script.src = target;var elem = document.head;elem.appendChild(script);
             <h4>Services Offered</h4>
             
             <ul class="widget-post pt-15">
-              <li> <a title="carpet-cleaning" class="widget-post-media" href="{{route('carpet-cleaning')}}"> <img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-cleaning.jpg')}}" alt="carpet-cleaning"> </a>
+              <li> <a title="carpet-cleaning" class="widget-post-media" href="{{route('carpet-cleaning.html')}}"> <img src="{{ asset('theme/website/Image/Carpet-Cleaning/carpet-cleaning.jpg')}}" alt="carpet-cleaning"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="carpet-cleaning" href="{{route('carpet-cleaning')}}">Carpet Cleaning</a></h6>
+                  <h6><a title="carpet-cleaning" href="{{route('carpet-cleaning.html')}}">Carpet Cleaning</a></h6>
                 </div>
               </li>
-              <li> <a title="area-rug-cleaning" class="widget-post-media" href="{{route('area-rug-cleaning')}}"> <img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/area-rug-cleaning.jpg')}}" alt="area-rug-cleaning"> </a>
+              <li> <a title="area-rug-cleaning" class="widget-post-media" href="{{route('area-rug-cleaning.html')}}"> <img src="{{ asset('theme/website/Image/Area-Rug-Cleaning/area-rug-cleaning.jpg')}}" alt="area-rug-cleaning"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="area-rug-cleaning" href="{{route('area-rug-cleaning')}}">Area Rug Cleaning</a></h6>
+                  <h6><a title="area-rug-cleaning" href="{{route('area-rug-cleaning.html')}}">Area Rug Cleaning</a></h6>
                 </div>
               </li>
-				<li> <a title="upholstery-cleaning" class="widget-post-media" href="{{route('upholstery-cleaning')}}"> <img src="{{ asset('theme/website/Image/Upholstery/upholstery-cleaning.jpg')}}" alt="upholstery cleaning"> </a>
+				<li> <a title="upholstery-cleaning" class="widget-post-media" href="{{route('upholstery-cleaning.html')}}"> <img src="{{ asset('theme/website/Image/Upholstery/upholstery-cleaning.jpg')}}" alt="upholstery cleaning"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="upholstery-cleaning" href="{{route('upholstery-cleaning')}}">Upholstery Cleaning</a></h6>
+                  <h6><a title="upholstery-cleaning" href="{{route('upholstery-cleaning.html')}}">Upholstery Cleaning</a></h6>
                 </div>
               </li>
-				<li> <a title="tile-and-grout-cleaning" class="widget-post-media" href="{{route('tile-and-grout-cleaning')}}"> <img src="{{ asset('theme/website/Image/Tile-&-Grout/tile-grout-cleaning.jpg')}}" alt="tile and grout cleaning"> </a>
+				<li> <a title="tile-and-grout-cleaning" class="widget-post-media" href="{{route('tile-and-grout-cleaning.html')}}"> <img src="{{ asset('theme/website/Image/Tile-&-Grout/tile-grout-cleaning.jpg')}}" alt="tile and grout cleaning"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning')}}">Tile and Grout Cleaning</a></h6>
+                  <h6><a title="tile-and-grout-cleaning" href="{{route('tile-and-grout-cleaning.html')}}">Tile and Grout Cleaning</a></h6>
                 </div>
              </li>
               
-				<li> <a title="stone-restoration-and-repair" class="widget-post-media" href="{{route('stone-restoration-and-repair')}}"> <img src="{{ asset('theme/website/Image/Stone-Restoration/Stone-Restoration.jpg')}}" alt="Stone Restoration"> </a>
+				<li> <a title="stone-restoration-and-repair" class="widget-post-media" href="{{route('stone-restoration-and-repair.html')}}"> <img src="{{ asset('theme/website/Image/Stone-Restoration/Stone-Restoration.jpg')}}" alt="Stone Restoration"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair')}}">Stone Restoration and Repair</a></h6>
+                  <h6><a title="stone-restoration-and-repair" href="{{route('stone-restoration-and-repair.html')}}">Stone Restoration and Repair</a></h6>
                 </div>
               </li>
-				<li> <a title="regrouting" class="widget-post-media" href="{{route('regrout')}}"> <img src="{{ asset('theme/website/Image/Regrout/regrouting.jpg')}}" alt="regrouting"> </a>
+				<li> <a title="regrouting" class="widget-post-media" href="{{route('regrout.html')}}"> <img src="{{ asset('theme/website/Image/Regrout/regrouting.jpg')}}" alt="regrouting"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="regrouting" href="{{route('regrout')}}">Regrouting and Repair</a></h6>
+                  <h6><a title="regrouting" href="{{route('regrout.html')}}">Regrouting and Repair</a></h6>
                 </div>
               </li>
-					<li> <a title="wood-floor-cleaning" class="widget-post-media" href="{{route('wood-floor-cleaning')}}"> <img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-refinishing.jpg')}}" alt="Wood Floor Cleaning and Refinishing"> </a>
+					<li> <a title="wood-floor-cleaning" class="widget-post-media" href="{{route('wood-floor-cleaning.html')}}"> <img src="{{ asset('theme/website/Image/Wood-Flooring/wood-floor-refinishing.jpg')}}" alt="Wood Floor Cleaning and Refinishing"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning')}}">Wood Floor Cleaning and Refinishing</a></h6>
+                  <h6><a title="wood-floor-cleaning" href="{{route('wood-floor-cleaning.html')}}">Wood Floor Cleaning and Refinishing</a></h6>
                 </div>
               </li>
-				<li> <a title="water-damage-restoration" class="widget-post-media" href="{{route('water-damage-restoration')}}"> <img src="{{ asset('theme/website/Image/Water-Damage/water-damage-restoration.jpg')}}" alt="water damage restoration"> </a>
+				<li> <a title="water-damage-restoration" class="widget-post-media" href="{{route('water-damage-restoration.html')}}"> <img src="{{ asset('theme/website/Image/Water-Damage/water-damage-restoration.jpg')}}" alt="water damage restoration"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="water-damage-restoration" href="{{route('water-damage-restoration')}}">Water Damage Restoration</a></h6>
+                  <h6><a title="water-damage-restoration" href="{{route('water-damage-restoration.html')}}">Water Damage Restoration</a></h6>
                 </div>
               </li>
-				<li> <a title="floor-maintenance-services" class="widget-post-media" href="{{route('floor-maintenance-services')}}"> <img src="{{ asset('theme/website/Image/Strip-&-Wax/floor-maintenance.jpg')}}" alt="Floor Maintenance"> </a>
+				<li> <a title="floor-maintenance-services" class="widget-post-media" href="{{route('floor-maintenance-services.html')}}"> <img src="{{ asset('theme/website/Image/Strip-&-Wax/floor-maintenance.jpg')}}" alt="Floor Maintenance"> </a>
                 <div class="widget-post-info">
-                  <h6><a title="floor-maintenance-services" href="{{route('floor-maintenance-services')}}">Floor Maintenance</a></h6>
+                  <h6><a title="floor-maintenance-services" href="{{route('floor-maintenance-services.html')}}">Floor Maintenance</a></h6>
                 </div>
               </li>
             </ul>
